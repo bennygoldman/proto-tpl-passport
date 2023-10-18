@@ -1,3 +1,19 @@
+/* 
+// // // // // // // // // // // // // // // // // // // // // // 
+// // // // // // // // // // // // // // // // // // // // // // 
+
+TO DO:
+-- Exclude non-physical branches
+-- Refactor recording the visit inside of createPassportPage and call it from there
+-- Add a way to get the stamp status
+-- Add ways to get total visits to all branches + all stamps
+-- Get kidFriendly/teenFriendly thing going
+-- Build front-end
+
+// // // // // // // // // // // // // // // // // // // // // // 
+// // // // // // // // // // // // // // // // // // // // // // 
+*/
+
 function createPassport(name, favoriteBook, ageGroup, branches) {
     const visits = {};
 
