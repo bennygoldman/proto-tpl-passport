@@ -1,62 +1,104 @@
-function Passport(name, favoriteBook) {
-    this.name = name;
-    this.favoriteBook = favoriteBook;
-    this.visits = {};
+function createPassport(name, favoriteBook, ageGroup, branches) {
+    const visits = {};
 
-    this.addVisit = (branch) => {
-        if (!this.visits[branch._id]) {
-            this.visits[branch._id] = 0;
+    function addVisit(branchPage) {
+        if (!visits[branchPage._id]) {
+            visits[branchPage._id] = 0;
         }
-        this.visits[branch._id]++;
-        branch.addVisit();
-    };
+        visits[branchPage._id]++;
+    }
 
-    this.getVisits = (branch) => {
-        return this.visits[branch._id] || 0;
-    };
+    function getVisits(branchPage) {
+        return visits[branchPage._id] || 0;
+    }
 
+
+    const passportPages = branches.map(branch => createPassportPage(branch));
+
+    return {
+        name,
+        favoriteBook,
+        ageGroup,
+        visits,
+        addVisit,
+        getVisits,
+        passportPages,
+    };
 }
 
-function Branch(data, passport) {
-    this._id = data._id;
-    this.branchName = data.BranchName;
-    this.address = data.Address;
-    this.url = data.Website;
-    this.openSince = data.PresentSiteYear;
-    this.stamp = false;
-    this.timesVisited = 0;
-    this.kidFriendly = {
-        kidsStop: data.KidsStop,
-        leadingReading: data.LeadingReading,
-        youthHub: data.YouthHub,
-        dih: data.DIH,
-        teenCouncil: data.TeenCouncil,
+function createBranch(data) {
+    const {
+        _id,
+        BranchName,
+        Address,
+        NBHDName,
+        WardName,
+        Website,
+        PresentSiteYear,
+        KidsStop,
+        LeadingReading,
+        YouthHub,
+        TeenCouncil,
+    } = data;
+
+    const kidServices = {
+        kidsStop: KidsStop,
+        leadingReading: LeadingReading,
     };
 
-    this.addVisit = () => {
-
-        ///////////
-        if (passport) {
-            passport.addVisit(this);
-        }
-        ///////////
-        if (this.timesVisited === 0) {
-            // Mark the branch as visited on the first visit.
-            this.stamp = true;
-            console.log('congratulations on your first visit');
-        }
-        this.timesVisited++;
+    const teenServices = {
+        youthHub: YouthHub,
+        teenCouncil: TeenCouncil,
     };
 
-    this.isKidFriendly = () => {
-        for (const key in this.kidFriendly) {
-            if (this.kidFriendly[key] === 1) {
+    function isKidFriendly() {
+        for (const key in kidServices) {
+            if (kidServices[key] === 1) {
                 return true;
             }
         }
-        return false; // None of the elements in kidFriendly is true
-    };
+        return false;
+    }
 
+    function isTeenFriendly() {
+        for (const key in teenServices) {
+            if (teenServices[key] === 1) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    return {
+        _id,
+        branchName: BranchName,
+        address: Address,
+        neighborhood: NBHDName,
+        ward: WardName,
+        url: Website,
+        openSince: PresentSiteYear,
+        isKidFriendly,
+        isTeenFriendly,
+    };
+}
+
+function createPassportPage(branchData) {
+    const { _id, branchName, address } = branchData;
+    const page = {
+        _id,
+        branchName,
+        address,
+        stamp: false,
+        visitCount: 0,
+        recordVisit: function () {
+            this.visitCount++;
+            if (this.visitCount === 1) {
+                this.stamp = true;
+            }
+        },
+
+    };
+    return page;
 }
 
 function fetchLibraryData() {
@@ -64,31 +106,26 @@ function fetchLibraryData() {
         .then(response => response.json());
 }
 
-function createBranches(data) {
-    const records = data.result.records;
-    const branches = [];
-    records.forEach(record => {
-        if (record.PhysicalBranch) {
-            const branch = new Branch(record);
-            branches.push(branch);
-        }
-    });
-    return branches;
-}
-
 document.addEventListener('DOMContentLoaded', () => {
     fetchLibraryData()
         .then(data => {
-            const branches = createBranches(data);
-            return branches;
-            // console.log(branches);
-        })
-        .then(branches => {
+            const branches = data.result.records;
+            const branchReturn = branches.map(branch => createBranch(branch));
+            const passport = createPassport('Jon Doe', 'Frankenstein', 'Kid', branchReturn);
+            console.log('Passport created: ', passport);
+
+            console.log('Name:', passport.name);
+            console.log('Favorite Book:', passport.favoriteBook);
+            console.log('Age Group:', passport.ageGroup);
+            console.log('Visits:', passport.visits);
+
+            const branchToVisit = passport.passportPages[0];
+            console.log('Visits before adding: ', passport.getVisits(branchToVisit));
+            passport.addVisit(branchToVisit);
+            console.log('Visits after adding:', passport.getVisits(branchToVisit));
+
         })
         .catch(error => {
             console.error('Error:', error);
         });
 });
-
-const passport = new Passport('Jon Doe', 'Frankenstein')
-
