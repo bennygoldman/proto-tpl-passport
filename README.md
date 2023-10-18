@@ -1,2 +1,2 @@
-# vanilla-tpl-passport
+# TPL Passport
 Toronto Public Library Passport - Track your visits to all 100 branches in the GTA
