@@ -18,6 +18,35 @@
             <button class="add-stamp add-visit"></button>
         </div>
     </div> -->
+
+    <form id="signUp">
+        <ul
+            style="list-style: none; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 1rem; width:fit-content; margin: 1rem; padding: 1rem; border: 1px solid navy;">
+            <li style="width: 100%">
+                <label for="userName">Name: </label>
+                <input type="text" name="userName" id="userName" style="width: 100%;">
+            </li>
+            <!-- <li style="width: 100%;">
+                <label for="favoriteBook">Favorite book: </label>
+                <input type="text" name="favoriteBook" id="favoriteBook" style="width: 100%;">
+            </li> -->
+            <li>
+                <input type="radio" name="userType" id="kid" value="kid">
+                <label for="kid">Kid (0-12)</label>
+            </li>
+            <li>
+                <input type="radio" name="userType" id="teen" value="teen">
+                <label for="teen">Teen (13-18)</label>
+            </li>
+            <li>
+                <input type="radio" name="userType" id="adult" value="adult">
+                <label for="adult">Adult (19+)</label>
+            </li>
+            <li style="width: 100%;">
+                <button id="submit" style="width: 100%;">submit</button>
+            </li>
+        </ul>
+    </form>
     <script src="script.js"></script>
 </body>
 
