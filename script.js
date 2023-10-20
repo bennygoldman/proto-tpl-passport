@@ -2,21 +2,18 @@
 // // // // // // // // // // // // // // // // // // // // // // 
 // // // // // // // // // // // // // // // // // // // // // // 
 DONE: 
--- Exclude non-physical branches
--- Refactor recording the visit inside of createPassportPage and call it from there
--- Add a way to get the stamp status
--- Get kidFriendly/teenFriendly thing going
 
 TO DO:
 -- Add ways to get total visits to all branches + all stamps
 -- Build front-end
--- Bring back Favorite Book + also add selector for home branch
+-- Bring back Favorite Book
 
 // // // // // // // // // // // // // // // // // // // // // // 
 // // // // // // // // // // // // // // // // // // // // // // 
 */
 
 let setLibrary;
+const selectEl = document.getElementById('branchSelect');
 const form = document.getElementById('signUp');
 form.addEventListener('submit', handleSubmit);
 const URL_TORONTO_PUBLIC_LIBRARY = 'response.json';
@@ -59,8 +56,8 @@ function createBranch(branchData) {
     };
 }
 
-function createPassport({ userName, userType }) {
-    return { userName, userType };
+function createPassport({ userName, userType, homeBranch }) {
+    return { userName, userType, homeBranch };
 }
 
 function createPassportPage(processedBranch) {
@@ -73,24 +70,26 @@ function createPassportPage(processedBranch) {
 }
 
 const processPassportApplication = (formData, library) => {
+    const passport = createPassport(formData);
     const dateCreated = new Date().toLocaleDateString();
     const uuid = crypto.randomUUID().toString();
-    const passport = createPassport(formData);
     const pages = library.map(branch => processPassportPageData(branch));
+    console.log(pages);
     passport.dateCreated = dateCreated;
     passport.uuid = uuid;
     passport.pages = pages;
     console.log(`Passport created for: ${formData.userName}`);
     console.log(passport);
-    const selectedPage = passport.pages[43];
-    console.log(`No visit yet...`);
-    console.log(`Visit Count: ${selectedPage.visitCount} Stamp Status: ${selectedPage.stamp}`);
-    selectedPage.addVisit();
-    console.log('After first visit...');
-    console.log(`Visit Count: ${selectedPage.visitCount} Stamp Status: ${selectedPage.stamp}`);
-    selectedPage.addVisit();
-    console.log('After second visit...');
-    console.log(`Visit Count: ${selectedPage.visitCount} Stamp Status: ${selectedPage.stamp}`);
+    // const selectedPage = passport.pages[43];
+    // console.log(selectedPage);
+    // console.log(`No visit yet...`);
+    // console.log(`Visit Count: ${selectedPage.visitCount} Stamp Status: ${selectedPage.stamp}`);
+    // selectedPage.addVisit();
+    // console.log('After first visit...');
+    // console.log(`Visit Count: ${selectedPage.visitCount} Stamp Status: ${selectedPage.stamp}`);
+    // selectedPage.addVisit();
+    // console.log('After second visit...');
+    // console.log(`Visit Count: ${selectedPage.visitCount} Stamp Status: ${selectedPage.stamp}`);
 
     return {
         passport
@@ -133,9 +132,10 @@ const processBranchData = (branchData) => {
 
 function handleSubmit(e) {
     e.preventDefault();
-    if (form.elements.userName.value && form.elements.userType.value) {
-        const data = { userName: form.elements.userName.value, userType: form.elements.userType.value };
-        // console.log(data);
+
+    if (form.elements.userName.value && form.elements.userType.value && form.elements.branchSelect.value) {
+        const data = { userName: form.elements.userName.value, userType: form.elements.userType.value, homeBranch: form.elements.branchSelect.value };
+        console.log(data);
         processPassportApplication(data, setLibrary);
         e.target.reset();
     }
@@ -155,10 +155,19 @@ async function fetchLibraryData(apiUrl) {
 document.addEventListener('DOMContentLoaded', async () => {
     try {
         const data = await fetchLibraryData(URL_TORONTO_PUBLIC_LIBRARY);
+
         setLibrary = data.result.records
             .filter(branch => branch.PhysicalBranch === 1)
             .map(branch => processBranchData(branch));
-        // console.log(setLibrary);
+
+        const optionElements = setLibrary.map(branch => {
+            const option = document.createElement('option');
+            option.value = branch.branch_code;
+            option.text = branch.branch_name;
+            return option;
+        });
+
+        optionElements.map(option => selectEl.appendChild(option));
     } catch (error) {
         console.error('Error:', error);
     }

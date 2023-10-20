@@ -9,15 +9,6 @@
 </head>
 
 <body>
-    <!-- <div id="branch-container">
-        <div class="branch-card">
-            <h2 class="branch-name"></h2>
-            <p class="branch-address"></p>
-            <p class="stamp-status"></p>
-            <p class="kidfriendly-status"></p>
-            <button class="add-stamp add-visit"></button>
-        </div>
-    </div> -->
 
     <form id="signUp">
         <ul
@@ -26,10 +17,13 @@
                 <label for="userName">Name: </label>
                 <input type="text" name="userName" id="userName" style="width: 100%;">
             </li>
-            <!-- <li style="width: 100%;">
-                <label for="favoriteBook">Favorite book: </label>
-                <input type="text" name="favoriteBook" id="favoriteBook" style="width: 100%;">
-            </li> -->
+            <li style="width: 100%">
+                <label for="branchSelect">Your home branch:</label>
+                <select id="branchSelect">
+                    <option value="" disabled selected>Select a branch</option>
+                    <!-- Options will be dynamically added here -->
+                </select>
+            </li>
             <li>
                 <input type="radio" name="userType" id="kid" value="kid">
                 <label for="kid">Kid (0-12)</label>

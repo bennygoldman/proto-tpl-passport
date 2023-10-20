@@ -1,1 +1,672 @@
-{"help": "https://ckan0.cf.opendata.inter.prod-toronto.ca/api/3/action/help_show?name=datastore_search", "success": true, "result": {"include_total": true, "limit": 150, "offset": 1026, "records_format": "objects", "resource_id": "a812e636-cdd9-4a15-bc11-b06ae133f07f", "total_estimation_threshold": null, "records": [{"_id":1027,"Year":2022,"BranchCode":"AB","Visits":"191320"},{"_id":1028,"Year":2022,"BranchCode":"ACD","Visits":"59881"},{"_id":1029,"Year":2022,"BranchCode":"AD","Visits":"47658"},{"_id":1030,"Year":2022,"BranchCode":"AG","Visits":"137685"},{"_id":1031,"Year":2022,"BranchCode":"AH","Visits":"18416"},{"_id":1032,"Year":2022,"BranchCode":"AN","Visits":"43257"},{"_id":1033,"Year":2022,"BranchCode":"AP","Visits":"28006"},{"_id":1034,"Year":2022,"BranchCode":"BB","Visits":"54070"},{"_id":1035,"Year":2022,"BranchCode":"BC","Visits":"43995"},{"_id":1036,"Year":2022,"BranchCode":"BD","Visits":"29668"},{"_id":1037,"Year":2022,"BranchCode":"BE","Visits":"122734"},{"_id":1038,"Year":2022,"BranchCode":"BF","Visits":"142752"},{"_id":1039,"Year":2022,"BranchCode":"BKONE","Visits":"9356"},{"_id":1040,"Year":2022,"BranchCode":"BL","Visits":"202438"},{"_id":1041,"Year":2022,"BranchCode":"BR","Visits":"133221"},{"_id":1042,"Year":2022,"BranchCode":"BRW","Visits":"199345"},{"_id":1043,"Year":2022,"BranchCode":"BUR","Visits":"34835"},{"_id":1044,"Year":2022,"BranchCode":"CC","Visits":"44702"},{"_id":1045,"Year":2022,"BranchCode":"CE","Visits":"95026"},{"_id":1046,"Year":2022,"BranchCode":"CED","Visits":"187054"},{"_id":1047,"Year":2022,"BranchCode":"CH","Visits":"58226"},{"_id":1048,"Year":2022,"BranchCode":"CL","Visits":"827795"},{"_id":1049,"Year":2022,"BranchCode":"CS","Visits":"54432"},{"_id":1050,"Year":2022,"BranchCode":"DA","Visits":"92387"},{"_id":1051,"Year":2022,"BranchCode":"DM","Visits":"146812"},{"_id":1052,"Year":2022,"BranchCode":"DO","Visits":"116686"},{"_id":1053,"Year":2022,"BranchCode":"DP","Visits":"165101"},{"_id":1054,"Year":2022,"BranchCode":"DR","Visits":"43606"},{"_id":1055,"Year":2022,"BranchCode":"DT","Visits":"13947"},{"_id":1056,"Year":2022,"BranchCode":"DU","Visits":"71848"},{"_id":1057,"Year":2022,"BranchCode":"EA","Visits":"137873"},{"_id":1058,"Year":2022,"BranchCode":"EB","Visits":"21786"},{"_id":1059,"Year":2022,"BranchCode":"EG","Visits":"18450"},{"_id":1060,"Year":2022,"BranchCode":"EN","Visits":"100183"},{"_id":1061,"Year":2022,"BranchCode":"ES","Visits":"137717"},{"_id":1062,"Year":2022,"BranchCode":"FH","Visits":"72570"},{"_id":1063,"Year":2022,"BranchCode":"FO","Visits":"122233"},{"_id":1064,"Year":2022,"BranchCode":"FP","Visits":"93145"},{"_id":1065,"Year":2022,"BranchCode":"FV","Visits":"295488"},{"_id":1066,"Year":2022,"BranchCode":"GE","Visits":"42256"},{"_id":1067,"Year":2022,"BranchCode":"GHP","Visits":"41524"},{"_id":1068,"Year":2022,"BranchCode":"GW","Visits":"27047"},{"_id":1069,"Year":2022,"BranchCode":"HB","Visits":"23300"},{"_id":1070,"Year":2022,"BranchCode":"HC","Visits":"33550"},{"_id":1071,"Year":2022,"BranchCode":"HIL","Visits":"50693"},{"_id":1072,"Year":2022,"BranchCode":"HP","Visits":"106896"},{"_id":1073,"Year":2022,"BranchCode":"HS","Visits":"20197"},{"_id":1074,"Year":2022,"BranchCode":"HW","Visits":"29417"},{"_id":1075,"Year":2022,"BranchCode":"JD","Visits":"87567"},{"_id":1076,"Year":2022,"BranchCode":"JO","Visits":"41781"},{"_id":1077,"Year":2022,"BranchCode":"JS","Visits":"55649"},{"_id":1078,"Year":2022,"BranchCode":"KE","Visits":"75654"},{"_id":1079,"Year":2022,"BranchCode":"LB","Visits":"30760"},{"_id":1080,"Year":2022,"BranchCode":"LE","Visits":"107068"},{"_id":1081,"Year":2022,"BranchCode":"LO","Visits":"68641"},{"_id":1082,"Year":2022,"BranchCode":"LS","Visits":"169226"},{"_id":1083,"Year":2022,"BranchCode":"MA","Visits":"88269"},{"_id":1084,"Year":2022,"BranchCode":"MAL","Visits":"134121"},{"_id":1085,"Year":2022,"BranchCode":"MAS","Visits":"105100"},{"_id":1086,"Year":2022,"BranchCode":"MCG","Visits":"51954"},{"_id":1087,"Year":2022,"BranchCode":"MD","Visits":"72801"},{"_id":1088,"Year":2022,"BranchCode":"ME","Visits":"6998"},{"_id":1089,"Year":2022,"BranchCode":"MI","Visits":"55676"},{"_id":1090,"Year":2022,"BranchCode":"MRV","Visits":"79733"},{"_id":1091,"Year":2022,"BranchCode":"MS","Visits":"80008"},{"_id":1092,"Year":2022,"BranchCode":"ND","Visits":"234291"},{"_id":1093,"Year":2022,"BranchCode":"NE","Visits":"22338"},{"_id":1094,"Year":2022,"BranchCode":"NT","Visits":"29806"},{"_id":1095,"Year":2022,"BranchCode":"OS","Visits":"15630"},{"_id":1096,"Year":2022,"BranchCode":"OV","Visits":"51839"},{"_id":1097,"Year":2022,"BranchCode":"PA","Visits":"125371"},{"_id":1098,"Year":2022,"BranchCode":"PE","Visits":"24922"},{"_id":1099,"Year":2022,"BranchCode":"PK","Visits":"189577"},{"_id":1100,"Year":2022,"BranchCode":"PL","Visits":"134804"},{"_id":1101,"Year":2022,"BranchCode":"PM","Visits":"81764"},{"_id":1102,"Year":2022,"BranchCode":"PU","Visits":"39945"},{"_id":1103,"Year":2022,"BranchCode":"PV","Visits":"33177"},{"_id":1104,"Year":2022,"BranchCode":"QS","Visits":"39625"},{"_id":1105,"Year":2022,"BranchCode":"RD","Visits":"91701"},{"_id":1106,"Year":2022,"BranchCode":"RI","Visits":"179693"},{"_id":1107,"Year":2022,"BranchCode":"RN","Visits":"175890"},{"_id":1108,"Year":2022,"BranchCode":"RX","Visits":"20128"},{"_id":1109,"Year":2022,"BranchCode":"SA","Visits":"90084"},{"_id":1110,"Year":2022,"BranchCode":"SB","Visits":"6869"},{"_id":1111,"Year":2022,"BranchCode":"SC","Visits":"115726"},{"_id":1112,"Year":2022,"BranchCode":"SI","Visits":"20273"},{"_id":1113,"Year":2022,"BranchCode":"SJ","Visits":"71045"},{"_id":1114,"Year":2022,"BranchCode":"SL","Visits":"68345"},{"_id":1115,"Year":2022,"BranchCode":"SP","Visits":"37150"},{"_id":1116,"Year":2022,"BranchCode":"ST","Visits":"68224"},{"_id":1117,"Year":2022,"BranchCode":"SW","Visits":"7707"},{"_id":1118,"Year":2022,"BranchCode":"SWS","Visits":"162852"},{"_id":1119,"Year":2022,"BranchCode":"TA","Visits":"23011"},{"_id":1120,"Year":2022,"BranchCode":"TH","Visits":"77271"},{"_id":1121,"Year":2022,"BranchCode":"TOD","Visits":"14260"},{"_id":1122,"Year":2022,"BranchCode":"TRL","Visits":"745217"},{"_id":1123,"Year":2022,"BranchCode":"VV","Visits":"19859"},{"_id":1124,"Year":2022,"BranchCode":"WE","Visits":"73630"},{"_id":1125,"Year":2022,"BranchCode":"WP","Visits":"28304"},{"_id":1126,"Year":2022,"BranchCode":"WS","Visits":"163061"},{"_id":1127,"Year":2022,"BranchCode":"WY","Visits":"37001"},{"_id":1128,"Year":2022,"BranchCode":"YO","Visits":"75390"},{"_id":1129,"Year":2022,"BranchCode":"YW","Visits":"69116"}], "fields": [{"id": "_id", "type": "int"}, {"id": "Year", "type": "int4", "info": {"label": "", "notes": "The transaction year.", "type_override": ""}}, {"id": "BranchCode", "type": "text", "info": {"label": "", "notes": "A code identifying the TPL branch where visitor traffic was recorded. Details for each code can be found in the [branch information dataset](https://open.toronto.ca/dataset/library-branch-general-information).", "type_override": ""}}, {"id": "Visits", "type": "text", "info": {"label": "", "notes": "The total number of visits.", "type_override": ""}}], "_links": {"start": "/api/3/action/datastore_search?id=a812e636-cdd9-4a15-bc11-b06ae133f07f&limit=150", "next": "/api/3/action/datastore_search?id=a812e636-cdd9-4a15-bc11-b06ae133f07f&offset=1176&limit=150", "prev": "/api/3/action/datastore_search?id=a812e636-cdd9-4a15-bc11-b06ae133f07f&offset=876&limit=150"}, "total": 1129, "total_was_estimated": false}}
+{
+    "help": "https://ckan0.cf.opendata.inter.prod-toronto.ca/api/3/action/help_show?name=datastore_search",
+    "success": true,
+    "result": {
+        "include_total": true,
+        "limit": 150,
+        "offset": 1026,
+        "records_format": "objects",
+        "resource_id": "a812e636-cdd9-4a15-bc11-b06ae133f07f",
+        "total_estimation_threshold": null,
+        "records": [
+            {
+                "_id": 1027,
+                "Year": 2022,
+                "BranchCode": "AB",
+                "Visits": "191320"
+            },
+            {
+                "_id": 1028,
+                "Year": 2022,
+                "BranchCode": "ACD",
+                "Visits": "59881"
+            },
+            {
+                "_id": 1029,
+                "Year": 2022,
+                "BranchCode": "AD",
+                "Visits": "47658"
+            },
+            {
+                "_id": 1030,
+                "Year": 2022,
+                "BranchCode": "AG",
+                "Visits": "137685"
+            },
+            {
+                "_id": 1031,
+                "Year": 2022,
+                "BranchCode": "AH",
+                "Visits": "18416"
+            },
+            {
+                "_id": 1032,
+                "Year": 2022,
+                "BranchCode": "AN",
+                "Visits": "43257"
+            },
+            {
+                "_id": 1033,
+                "Year": 2022,
+                "BranchCode": "AP",
+                "Visits": "28006"
+            },
+            {
+                "_id": 1034,
+                "Year": 2022,
+                "BranchCode": "BB",
+                "Visits": "54070"
+            },
+            {
+                "_id": 1035,
+                "Year": 2022,
+                "BranchCode": "BC",
+                "Visits": "43995"
+            },
+            {
+                "_id": 1036,
+                "Year": 2022,
+                "BranchCode": "BD",
+                "Visits": "29668"
+            },
+            {
+                "_id": 1037,
+                "Year": 2022,
+                "BranchCode": "BE",
+                "Visits": "122734"
+            },
+            {
+                "_id": 1038,
+                "Year": 2022,
+                "BranchCode": "BF",
+                "Visits": "142752"
+            },
+            {
+                "_id": 1039,
+                "Year": 2022,
+                "BranchCode": "BKONE",
+                "Visits": "9356"
+            },
+            {
+                "_id": 1040,
+                "Year": 2022,
+                "BranchCode": "BL",
+                "Visits": "202438"
+            },
+            {
+                "_id": 1041,
+                "Year": 2022,
+                "BranchCode": "BR",
+                "Visits": "133221"
+            },
+            {
+                "_id": 1042,
+                "Year": 2022,
+                "BranchCode": "BRW",
+                "Visits": "199345"
+            },
+            {
+                "_id": 1043,
+                "Year": 2022,
+                "BranchCode": "BUR",
+                "Visits": "34835"
+            },
+            {
+                "_id": 1044,
+                "Year": 2022,
+                "BranchCode": "CC",
+                "Visits": "44702"
+            },
+            {
+                "_id": 1045,
+                "Year": 2022,
+                "BranchCode": "CE",
+                "Visits": "95026"
+            },
+            {
+                "_id": 1046,
+                "Year": 2022,
+                "BranchCode": "CED",
+                "Visits": "187054"
+            },
+            {
+                "_id": 1047,
+                "Year": 2022,
+                "BranchCode": "CH",
+                "Visits": "58226"
+            },
+            {
+                "_id": 1048,
+                "Year": 2022,
+                "BranchCode": "CL",
+                "Visits": "827795"
+            },
+            {
+                "_id": 1049,
+                "Year": 2022,
+                "BranchCode": "CS",
+                "Visits": "54432"
+            },
+            {
+                "_id": 1050,
+                "Year": 2022,
+                "BranchCode": "DA",
+                "Visits": "92387"
+            },
+            {
+                "_id": 1051,
+                "Year": 2022,
+                "BranchCode": "DM",
+                "Visits": "146812"
+            },
+            {
+                "_id": 1052,
+                "Year": 2022,
+                "BranchCode": "DO",
+                "Visits": "116686"
+            },
+            {
+                "_id": 1053,
+                "Year": 2022,
+                "BranchCode": "DP",
+                "Visits": "165101"
+            },
+            {
+                "_id": 1054,
+                "Year": 2022,
+                "BranchCode": "DR",
+                "Visits": "43606"
+            },
+            {
+                "_id": 1055,
+                "Year": 2022,
+                "BranchCode": "DT",
+                "Visits": "13947"
+            },
+            {
+                "_id": 1056,
+                "Year": 2022,
+                "BranchCode": "DU",
+                "Visits": "71848"
+            },
+            {
+                "_id": 1057,
+                "Year": 2022,
+                "BranchCode": "EA",
+                "Visits": "137873"
+            },
+            {
+                "_id": 1058,
+                "Year": 2022,
+                "BranchCode": "EB",
+                "Visits": "21786"
+            },
+            {
+                "_id": 1059,
+                "Year": 2022,
+                "BranchCode": "EG",
+                "Visits": "18450"
+            },
+            {
+                "_id": 1060,
+                "Year": 2022,
+                "BranchCode": "EN",
+                "Visits": "100183"
+            },
+            {
+                "_id": 1061,
+                "Year": 2022,
+                "BranchCode": "ES",
+                "Visits": "137717"
+            },
+            {
+                "_id": 1062,
+                "Year": 2022,
+                "BranchCode": "FH",
+                "Visits": "72570"
+            },
+            {
+                "_id": 1063,
+                "Year": 2022,
+                "BranchCode": "FO",
+                "Visits": "122233"
+            },
+            {
+                "_id": 1064,
+                "Year": 2022,
+                "BranchCode": "FP",
+                "Visits": "93145"
+            },
+            {
+                "_id": 1065,
+                "Year": 2022,
+                "BranchCode": "FV",
+                "Visits": "295488"
+            },
+            {
+                "_id": 1066,
+                "Year": 2022,
+                "BranchCode": "GE",
+                "Visits": "42256"
+            },
+            {
+                "_id": 1067,
+                "Year": 2022,
+                "BranchCode": "GHP",
+                "Visits": "41524"
+            },
+            {
+                "_id": 1068,
+                "Year": 2022,
+                "BranchCode": "GW",
+                "Visits": "27047"
+            },
+            {
+                "_id": 1069,
+                "Year": 2022,
+                "BranchCode": "HB",
+                "Visits": "23300"
+            },
+            {
+                "_id": 1070,
+                "Year": 2022,
+                "BranchCode": "HC",
+                "Visits": "33550"
+            },
+            {
+                "_id": 1071,
+                "Year": 2022,
+                "BranchCode": "HIL",
+                "Visits": "50693"
+            },
+            {
+                "_id": 1072,
+                "Year": 2022,
+                "BranchCode": "HP",
+                "Visits": "106896"
+            },
+            {
+                "_id": 1073,
+                "Year": 2022,
+                "BranchCode": "HS",
+                "Visits": "20197"
+            },
+            {
+                "_id": 1074,
+                "Year": 2022,
+                "BranchCode": "HW",
+                "Visits": "29417"
+            },
+            {
+                "_id": 1075,
+                "Year": 2022,
+                "BranchCode": "JD",
+                "Visits": "87567"
+            },
+            {
+                "_id": 1076,
+                "Year": 2022,
+                "BranchCode": "JO",
+                "Visits": "41781"
+            },
+            {
+                "_id": 1077,
+                "Year": 2022,
+                "BranchCode": "JS",
+                "Visits": "55649"
+            },
+            {
+                "_id": 1078,
+                "Year": 2022,
+                "BranchCode": "KE",
+                "Visits": "75654"
+            },
+            {
+                "_id": 1079,
+                "Year": 2022,
+                "BranchCode": "LB",
+                "Visits": "30760"
+            },
+            {
+                "_id": 1080,
+                "Year": 2022,
+                "BranchCode": "LE",
+                "Visits": "107068"
+            },
+            {
+                "_id": 1081,
+                "Year": 2022,
+                "BranchCode": "LO",
+                "Visits": "68641"
+            },
+            {
+                "_id": 1082,
+                "Year": 2022,
+                "BranchCode": "LS",
+                "Visits": "169226"
+            },
+            {
+                "_id": 1083,
+                "Year": 2022,
+                "BranchCode": "MA",
+                "Visits": "88269"
+            },
+            {
+                "_id": 1084,
+                "Year": 2022,
+                "BranchCode": "MAL",
+                "Visits": "134121"
+            },
+            {
+                "_id": 1085,
+                "Year": 2022,
+                "BranchCode": "MAS",
+                "Visits": "105100"
+            },
+            {
+                "_id": 1086,
+                "Year": 2022,
+                "BranchCode": "MCG",
+                "Visits": "51954"
+            },
+            {
+                "_id": 1087,
+                "Year": 2022,
+                "BranchCode": "MD",
+                "Visits": "72801"
+            },
+            {
+                "_id": 1088,
+                "Year": 2022,
+                "BranchCode": "ME",
+                "Visits": "6998"
+            },
+            {
+                "_id": 1089,
+                "Year": 2022,
+                "BranchCode": "MI",
+                "Visits": "55676"
+            },
+            {
+                "_id": 1090,
+                "Year": 2022,
+                "BranchCode": "MRV",
+                "Visits": "79733"
+            },
+            {
+                "_id": 1091,
+                "Year": 2022,
+                "BranchCode": "MS",
+                "Visits": "80008"
+            },
+            {
+                "_id": 1092,
+                "Year": 2022,
+                "BranchCode": "ND",
+                "Visits": "234291"
+            },
+            {
+                "_id": 1093,
+                "Year": 2022,
+                "BranchCode": "NE",
+                "Visits": "22338"
+            },
+            {
+                "_id": 1094,
+                "Year": 2022,
+                "BranchCode": "NT",
+                "Visits": "29806"
+            },
+            {
+                "_id": 1095,
+                "Year": 2022,
+                "BranchCode": "OS",
+                "Visits": "15630"
+            },
+            {
+                "_id": 1096,
+                "Year": 2022,
+                "BranchCode": "OV",
+                "Visits": "51839"
+            },
+            {
+                "_id": 1097,
+                "Year": 2022,
+                "BranchCode": "PA",
+                "Visits": "125371"
+            },
+            {
+                "_id": 1098,
+                "Year": 2022,
+                "BranchCode": "PE",
+                "Visits": "24922"
+            },
+            {
+                "_id": 1099,
+                "Year": 2022,
+                "BranchCode": "PK",
+                "Visits": "189577"
+            },
+            {
+                "_id": 1100,
+                "Year": 2022,
+                "BranchCode": "PL",
+                "Visits": "134804"
+            },
+            {
+                "_id": 1101,
+                "Year": 2022,
+                "BranchCode": "PM",
+                "Visits": "81764"
+            },
+            {
+                "_id": 1102,
+                "Year": 2022,
+                "BranchCode": "PU",
+                "Visits": "39945"
+            },
+            {
+                "_id": 1103,
+                "Year": 2022,
+                "BranchCode": "PV",
+                "Visits": "33177"
+            },
+            {
+                "_id": 1104,
+                "Year": 2022,
+                "BranchCode": "QS",
+                "Visits": "39625"
+            },
+            {
+                "_id": 1105,
+                "Year": 2022,
+                "BranchCode": "RD",
+                "Visits": "91701"
+            },
+            {
+                "_id": 1106,
+                "Year": 2022,
+                "BranchCode": "RI",
+                "Visits": "179693"
+            },
+            {
+                "_id": 1107,
+                "Year": 2022,
+                "BranchCode": "RN",
+                "Visits": "175890"
+            },
+            {
+                "_id": 1108,
+                "Year": 2022,
+                "BranchCode": "RX",
+                "Visits": "20128"
+            },
+            {
+                "_id": 1109,
+                "Year": 2022,
+                "BranchCode": "SA",
+                "Visits": "90084"
+            },
+            {
+                "_id": 1110,
+                "Year": 2022,
+                "BranchCode": "SB",
+                "Visits": "6869"
+            },
+            {
+                "_id": 1111,
+                "Year": 2022,
+                "BranchCode": "SC",
+                "Visits": "115726"
+            },
+            {
+                "_id": 1112,
+                "Year": 2022,
+                "BranchCode": "SI",
+                "Visits": "20273"
+            },
+            {
+                "_id": 1113,
+                "Year": 2022,
+                "BranchCode": "SJ",
+                "Visits": "71045"
+            },
+            {
+                "_id": 1114,
+                "Year": 2022,
+                "BranchCode": "SL",
+                "Visits": "68345"
+            },
+            {
+                "_id": 1115,
+                "Year": 2022,
+                "BranchCode": "SP",
+                "Visits": "37150"
+            },
+            {
+                "_id": 1116,
+                "Year": 2022,
+                "BranchCode": "ST",
+                "Visits": "68224"
+            },
+            {
+                "_id": 1117,
+                "Year": 2022,
+                "BranchCode": "SW",
+                "Visits": "7707"
+            },
+            {
+                "_id": 1118,
+                "Year": 2022,
+                "BranchCode": "SWS",
+                "Visits": "162852"
+            },
+            {
+                "_id": 1119,
+                "Year": 2022,
+                "BranchCode": "TA",
+                "Visits": "23011"
+            },
+            {
+                "_id": 1120,
+                "Year": 2022,
+                "BranchCode": "TH",
+                "Visits": "77271"
+            },
+            {
+                "_id": 1121,
+                "Year": 2022,
+                "BranchCode": "TOD",
+                "Visits": "14260"
+            },
+            {
+                "_id": 1122,
+                "Year": 2022,
+                "BranchCode": "TRL",
+                "Visits": "745217"
+            },
+            {
+                "_id": 1123,
+                "Year": 2022,
+                "BranchCode": "VV",
+                "Visits": "19859"
+            },
+            {
+                "_id": 1124,
+                "Year": 2022,
+                "BranchCode": "WE",
+                "Visits": "73630"
+            },
+            {
+                "_id": 1125,
+                "Year": 2022,
+                "BranchCode": "WP",
+                "Visits": "28304"
+            },
+            {
+                "_id": 1126,
+                "Year": 2022,
+                "BranchCode": "WS",
+                "Visits": "163061"
+            },
+            {
+                "_id": 1127,
+                "Year": 2022,
+                "BranchCode": "WY",
+                "Visits": "37001"
+            },
+            {
+                "_id": 1128,
+                "Year": 2022,
+                "BranchCode": "YO",
+                "Visits": "75390"
+            },
+            {
+                "_id": 1129,
+                "Year": 2022,
+                "BranchCode": "YW",
+                "Visits": "69116"
+            }
+        ],
+        "fields": [
+            {
+                "id": "_id",
+                "type": "int"
+            },
+            {
+                "id": "Year",
+                "type": "int4",
+                "info": {
+                    "label": "",
+                    "notes": "The transaction year.",
+                    "type_override": ""
+                }
+            },
+            {
+                "id": "BranchCode",
+                "type": "text",
+                "info": {
+                    "label": "",
+                    "notes": "A code identifying the TPL branch where visitor traffic was recorded. Details for each code can be found in the [branch information dataset](https://open.toronto.ca/dataset/library-branch-general-information).",
+                    "type_override": ""
+                }
+            },
+            {
+                "id": "Visits",
+                "type": "text",
+                "info": {
+                    "label": "",
+                    "notes": "The total number of visits.",
+                    "type_override": ""
+                }
+            }
+        ],
+        "_links": {
+            "start": "/api/3/action/datastore_search?id=a812e636-cdd9-4a15-bc11-b06ae133f07f&limit=150",
+            "next": "/api/3/action/datastore_search?id=a812e636-cdd9-4a15-bc11-b06ae133f07f&offset=1176&limit=150",
+            "prev": "/api/3/action/datastore_search?id=a812e636-cdd9-4a15-bc11-b06ae133f07f&offset=876&limit=150"
+        },
+        "total": 1129,
+        "total_was_estimated": false
+    }
+}

@@ -1,1 +1,726 @@
-{"help": "https://ckan0.cf.opendata.inter.prod-toronto.ca/api/3/action/help_show?name=datastore_search", "success": true, "result": {"include_total": true, "limit": 250, "offset": 1113, "records_format": "objects", "resource_id": "18e9b8ba-b4b1-4a2d-8e56-0fffab64c525", "total_estimation_threshold": null, "records": [{"_id":1114,"Year":2022,"BranchCode":"AB","Circulation":"209792"},{"_id":1115,"Year":2022,"BranchCode":"ACD","Circulation":"84732"},{"_id":1116,"Year":2022,"BranchCode":"AD","Circulation":"91028"},{"_id":1117,"Year":2022,"BranchCode":"AG","Circulation":"394133"},{"_id":1118,"Year":2022,"BranchCode":"AH","Circulation":"69713"},{"_id":1119,"Year":2022,"BranchCode":"AL","Circulation":"22765"},{"_id":1120,"Year":2022,"BranchCode":"AN","Circulation":"131914"},{"_id":1121,"Year":2022,"BranchCode":"AP","Circulation":"53317"},{"_id":1122,"Year":2022,"BranchCode":"BB","Circulation":"134769"},{"_id":1123,"Year":2022,"BranchCode":"BC","Circulation":"33959"},{"_id":1124,"Year":2022,"BranchCode":"BD","Circulation":"69628"},{"_id":1125,"Year":2022,"BranchCode":"BE","Circulation":"215838"},{"_id":1126,"Year":2022,"BranchCode":"BF","Circulation":"368807"},{"_id":1127,"Year":2022,"BranchCode":"BKONE","Circulation":"27794"},{"_id":1128,"Year":2022,"BranchCode":"BKTWO","Circulation":"13148"},{"_id":1129,"Year":2022,"BranchCode":"BL","Circulation":"289981"},{"_id":1130,"Year":2022,"BranchCode":"BR","Circulation":"345454"},{"_id":1131,"Year":2022,"BranchCode":"BRW","Circulation":"203836"},{"_id":1132,"Year":2022,"BranchCode":"BUR","Circulation":"64432"},{"_id":1133,"Year":2022,"BranchCode":"CC","Circulation":"116600"},{"_id":1134,"Year":2022,"BranchCode":"CE","Circulation":"217757"},{"_id":1135,"Year":2022,"BranchCode":"CED","Circulation":"237252"},{"_id":1136,"Year":2022,"BranchCode":"CH","Circulation":"68917"},{"_id":1137,"Year":2022,"BranchCode":"CL","Circulation":"732038"},{"_id":1138,"Year":2022,"BranchCode":"CS","Circulation":"128467"},{"_id":1139,"Year":2022,"BranchCode":"DA","Circulation":"225709"},{"_id":1140,"Year":2022,"BranchCode":"DM","Circulation":"401716"},{"_id":1141,"Year":2022,"BranchCode":"DO","Circulation":"119424"},{"_id":1142,"Year":2022,"BranchCode":"DP","Circulation":"288495"},{"_id":1143,"Year":2022,"BranchCode":"DR","Circulation":"94405"},{"_id":1144,"Year":2022,"BranchCode":"DS","Circulation":"8017"},{"_id":1145,"Year":2022,"BranchCode":"DT","Circulation":"57890"},{"_id":1146,"Year":2022,"BranchCode":"DU","Circulation":"154485"},{"_id":1147,"Year":2022,"BranchCode":"EA","Circulation":"359551"},{"_id":1148,"Year":2022,"BranchCode":"EB","Circulation":"76420"},{"_id":1149,"Year":2022,"BranchCode":"EG","Circulation":"34926"},{"_id":1150,"Year":2022,"BranchCode":"EN","Circulation":"279998"},{"_id":1151,"Year":2022,"BranchCode":"ES","Circulation":"136581"},{"_id":1152,"Year":2022,"BranchCode":"FH","Circulation":"143551"},{"_id":1153,"Year":2022,"BranchCode":"FO","Circulation":"180341"},{"_id":1154,"Year":2022,"BranchCode":"FP","Circulation":"66808"},{"_id":1155,"Year":2022,"BranchCode":"FV","Circulation":"447214"},{"_id":1156,"Year":2022,"BranchCode":"GE","Circulation":"99785"},{"_id":1157,"Year":2022,"BranchCode":"GHP","Circulation":"118150"},{"_id":1158,"Year":2022,"BranchCode":"GW","Circulation":"63224"},{"_id":1159,"Year":2022,"BranchCode":"HB","Circulation":"83126"},{"_id":1160,"Year":2022,"BranchCode":"HC","Circulation":"87911"},{"_id":1161,"Year":2022,"BranchCode":"HIL","Circulation":"181066"},{"_id":1162,"Year":2022,"BranchCode":"HLS","Circulation":"112093"},{"_id":1163,"Year":2022,"BranchCode":"HP","Circulation":"200102"},{"_id":1164,"Year":2022,"BranchCode":"HS","Circulation":"33951"},{"_id":1165,"Year":2022,"BranchCode":"HW","Circulation":"29362"},{"_id":1166,"Year":2022,"BranchCode":"IL","Circulation":"4433"},{"_id":1167,"Year":2022,"BranchCode":"JD","Circulation":"200464"},{"_id":1168,"Year":2022,"BranchCode":"JO","Circulation":"108010"},{"_id":1169,"Year":2022,"BranchCode":"JS","Circulation":"70105"},{"_id":1170,"Year":2022,"BranchCode":"KE","Circulation":"110971"},{"_id":1171,"Year":2022,"BranchCode":"LB","Circulation":"90655"},{"_id":1172,"Year":2022,"BranchCode":"LD","Circulation":"26"},{"_id":1173,"Year":2022,"BranchCode":"LE","Circulation":"282606"},{"_id":1174,"Year":2022,"BranchCode":"LO","Circulation":"162948"},{"_id":1175,"Year":2022,"BranchCode":"LS","Circulation":"237732"},{"_id":1176,"Year":2022,"BranchCode":"MA","Circulation":"225908"},{"_id":1177,"Year":2022,"BranchCode":"MAL","Circulation":"210714"},{"_id":1178,"Year":2022,"BranchCode":"MAS","Circulation":"138093"},{"_id":1179,"Year":2022,"BranchCode":"MCG","Circulation":"101179"},{"_id":1180,"Year":2022,"BranchCode":"MD","Circulation":"73517"},{"_id":1181,"Year":2022,"BranchCode":"ME","Circulation":"11"},{"_id":1182,"Year":2022,"BranchCode":"MI","Circulation":"161819"},{"_id":1183,"Year":2022,"BranchCode":"MP","Circulation":"10191"},{"_id":1184,"Year":2022,"BranchCode":"MRV","Circulation":"55037"},{"_id":1185,"Year":2022,"BranchCode":"MS","Circulation":"143361"},{"_id":1186,"Year":2022,"BranchCode":"ND","Circulation":"380855"},{"_id":1187,"Year":2022,"BranchCode":"NE","Circulation":"46726"},{"_id":1188,"Year":2022,"BranchCode":"NT","Circulation":"78132"},{"_id":1189,"Year":2022,"BranchCode":"OS","Circulation":"44"},{"_id":1190,"Year":2022,"BranchCode":"OV","Circulation":"110991"},{"_id":1191,"Year":2022,"BranchCode":"PA","Circulation":"268749"},{"_id":1192,"Year":2022,"BranchCode":"PE","Circulation":"60143"},{"_id":1193,"Year":2022,"BranchCode":"PK","Circulation":"279390"},{"_id":1194,"Year":2022,"BranchCode":"PL","Circulation":"177165"},{"_id":1195,"Year":2022,"BranchCode":"PM","Circulation":"184670"},{"_id":1196,"Year":2022,"BranchCode":"PR","Circulation":"86453"},{"_id":1197,"Year":2022,"BranchCode":"PU","Circulation":"109801"},{"_id":1198,"Year":2022,"BranchCode":"PV","Circulation":"100288"},{"_id":1199,"Year":2022,"BranchCode":"QS","Circulation":"73086"},{"_id":1200,"Year":2022,"BranchCode":"RD","Circulation":"171092"},{"_id":1201,"Year":2022,"BranchCode":"RI","Circulation":"398376"},{"_id":1202,"Year":2022,"BranchCode":"RN","Circulation":"362744"},{"_id":1203,"Year":2022,"BranchCode":"RX","Circulation":"35307"},{"_id":1204,"Year":2022,"BranchCode":"SA","Circulation":"102407"},{"_id":1205,"Year":2022,"BranchCode":"SB","Circulation":"5519"},{"_id":1206,"Year":2022,"BranchCode":"SC","Circulation":"134117"},{"_id":1207,"Year":2022,"BranchCode":"SI","Circulation":"44750"},{"_id":1208,"Year":2022,"BranchCode":"SJ","Circulation":"81061"},{"_id":1209,"Year":2022,"BranchCode":"SL","Circulation":"146566"},{"_id":1210,"Year":2022,"BranchCode":"SP","Circulation":"72202"},{"_id":1211,"Year":2022,"BranchCode":"ST","Circulation":"132901"},{"_id":1212,"Year":2022,"BranchCode":"SW","Circulation":"16345"},{"_id":1213,"Year":2022,"BranchCode":"SWS","Circulation":"338947"},{"_id":1214,"Year":2022,"BranchCode":"TA","Circulation":"78732"},{"_id":1215,"Year":2022,"BranchCode":"TH","Circulation":"91727"},{"_id":1216,"Year":2022,"BranchCode":"TOD","Circulation":"20919"},{"_id":1217,"Year":2022,"BranchCode":"TRL","Circulation":"239509"},{"_id":1218,"Year":2022,"BranchCode":"VIR","Circulation":"10798160"},{"_id":1219,"Year":2022,"BranchCode":"VV","Circulation":"49054"},{"_id":1220,"Year":2022,"BranchCode":"WE","Circulation":"78666"},{"_id":1221,"Year":2022,"BranchCode":"WP","Circulation":"35084"},{"_id":1222,"Year":2022,"BranchCode":"WS","Circulation":"176330"},{"_id":1223,"Year":2022,"BranchCode":"WY","Circulation":"47953"},{"_id":1224,"Year":2022,"BranchCode":"YO","Circulation":"142124"},{"_id":1225,"Year":2022,"BranchCode":"YW","Circulation":"43695"}], "fields": [{"id": "_id", "type": "int"}, {"id": "Year", "type": "int4", "info": {"label": "", "notes": "The transaction year.", "type_override": ""}}, {"id": "BranchCode", "type": "text", "info": {"label": "", "notes": "A code identifying the TPL branch where materials were borrowed/renewed. Online renewals of physical items are attributed to the home branch of the renewing customer. \r\nDetails for each code can be found in the [branch information dataset](https://open.toronto.ca/dataset/library-branch-general-information).\r\n", "type_override": ""}}, {"id": "Circulation", "type": "text", "info": {"label": "", "notes": "The total number of items borrowed/renewed.", "type_override": ""}}], "_links": {"start": "/api/3/action/datastore_search?id=18e9b8ba-b4b1-4a2d-8e56-0fffab64c525&limit=250", "next": "/api/3/action/datastore_search?id=18e9b8ba-b4b1-4a2d-8e56-0fffab64c525&offset=1363&limit=250", "prev": "/api/3/action/datastore_search?id=18e9b8ba-b4b1-4a2d-8e56-0fffab64c525&offset=863&limit=250"}, "total": 1225, "total_was_estimated": false}}
+{
+    "help": "https://ckan0.cf.opendata.inter.prod-toronto.ca/api/3/action/help_show?name=datastore_search",
+    "success": true,
+    "result": {
+        "include_total": true,
+        "limit": 250,
+        "offset": 1113,
+        "records_format": "objects",
+        "resource_id": "18e9b8ba-b4b1-4a2d-8e56-0fffab64c525",
+        "total_estimation_threshold": null,
+        "records": [
+            {
+                "_id": 1114,
+                "Year": 2022,
+                "BranchCode": "AB",
+                "Circulation": "209792"
+            },
+            {
+                "_id": 1115,
+                "Year": 2022,
+                "BranchCode": "ACD",
+                "Circulation": "84732"
+            },
+            {
+                "_id": 1116,
+                "Year": 2022,
+                "BranchCode": "AD",
+                "Circulation": "91028"
+            },
+            {
+                "_id": 1117,
+                "Year": 2022,
+                "BranchCode": "AG",
+                "Circulation": "394133"
+            },
+            {
+                "_id": 1118,
+                "Year": 2022,
+                "BranchCode": "AH",
+                "Circulation": "69713"
+            },
+            {
+                "_id": 1119,
+                "Year": 2022,
+                "BranchCode": "AL",
+                "Circulation": "22765"
+            },
+            {
+                "_id": 1120,
+                "Year": 2022,
+                "BranchCode": "AN",
+                "Circulation": "131914"
+            },
+            {
+                "_id": 1121,
+                "Year": 2022,
+                "BranchCode": "AP",
+                "Circulation": "53317"
+            },
+            {
+                "_id": 1122,
+                "Year": 2022,
+                "BranchCode": "BB",
+                "Circulation": "134769"
+            },
+            {
+                "_id": 1123,
+                "Year": 2022,
+                "BranchCode": "BC",
+                "Circulation": "33959"
+            },
+            {
+                "_id": 1124,
+                "Year": 2022,
+                "BranchCode": "BD",
+                "Circulation": "69628"
+            },
+            {
+                "_id": 1125,
+                "Year": 2022,
+                "BranchCode": "BE",
+                "Circulation": "215838"
+            },
+            {
+                "_id": 1126,
+                "Year": 2022,
+                "BranchCode": "BF",
+                "Circulation": "368807"
+            },
+            {
+                "_id": 1127,
+                "Year": 2022,
+                "BranchCode": "BKONE",
+                "Circulation": "27794"
+            },
+            {
+                "_id": 1128,
+                "Year": 2022,
+                "BranchCode": "BKTWO",
+                "Circulation": "13148"
+            },
+            {
+                "_id": 1129,
+                "Year": 2022,
+                "BranchCode": "BL",
+                "Circulation": "289981"
+            },
+            {
+                "_id": 1130,
+                "Year": 2022,
+                "BranchCode": "BR",
+                "Circulation": "345454"
+            },
+            {
+                "_id": 1131,
+                "Year": 2022,
+                "BranchCode": "BRW",
+                "Circulation": "203836"
+            },
+            {
+                "_id": 1132,
+                "Year": 2022,
+                "BranchCode": "BUR",
+                "Circulation": "64432"
+            },
+            {
+                "_id": 1133,
+                "Year": 2022,
+                "BranchCode": "CC",
+                "Circulation": "116600"
+            },
+            {
+                "_id": 1134,
+                "Year": 2022,
+                "BranchCode": "CE",
+                "Circulation": "217757"
+            },
+            {
+                "_id": 1135,
+                "Year": 2022,
+                "BranchCode": "CED",
+                "Circulation": "237252"
+            },
+            {
+                "_id": 1136,
+                "Year": 2022,
+                "BranchCode": "CH",
+                "Circulation": "68917"
+            },
+            {
+                "_id": 1137,
+                "Year": 2022,
+                "BranchCode": "CL",
+                "Circulation": "732038"
+            },
+            {
+                "_id": 1138,
+                "Year": 2022,
+                "BranchCode": "CS",
+                "Circulation": "128467"
+            },
+            {
+                "_id": 1139,
+                "Year": 2022,
+                "BranchCode": "DA",
+                "Circulation": "225709"
+            },
+            {
+                "_id": 1140,
+                "Year": 2022,
+                "BranchCode": "DM",
+                "Circulation": "401716"
+            },
+            {
+                "_id": 1141,
+                "Year": 2022,
+                "BranchCode": "DO",
+                "Circulation": "119424"
+            },
+            {
+                "_id": 1142,
+                "Year": 2022,
+                "BranchCode": "DP",
+                "Circulation": "288495"
+            },
+            {
+                "_id": 1143,
+                "Year": 2022,
+                "BranchCode": "DR",
+                "Circulation": "94405"
+            },
+            {
+                "_id": 1144,
+                "Year": 2022,
+                "BranchCode": "DS",
+                "Circulation": "8017"
+            },
+            {
+                "_id": 1145,
+                "Year": 2022,
+                "BranchCode": "DT",
+                "Circulation": "57890"
+            },
+            {
+                "_id": 1146,
+                "Year": 2022,
+                "BranchCode": "DU",
+                "Circulation": "154485"
+            },
+            {
+                "_id": 1147,
+                "Year": 2022,
+                "BranchCode": "EA",
+                "Circulation": "359551"
+            },
+            {
+                "_id": 1148,
+                "Year": 2022,
+                "BranchCode": "EB",
+                "Circulation": "76420"
+            },
+            {
+                "_id": 1149,
+                "Year": 2022,
+                "BranchCode": "EG",
+                "Circulation": "34926"
+            },
+            {
+                "_id": 1150,
+                "Year": 2022,
+                "BranchCode": "EN",
+                "Circulation": "279998"
+            },
+            {
+                "_id": 1151,
+                "Year": 2022,
+                "BranchCode": "ES",
+                "Circulation": "136581"
+            },
+            {
+                "_id": 1152,
+                "Year": 2022,
+                "BranchCode": "FH",
+                "Circulation": "143551"
+            },
+            {
+                "_id": 1153,
+                "Year": 2022,
+                "BranchCode": "FO",
+                "Circulation": "180341"
+            },
+            {
+                "_id": 1154,
+                "Year": 2022,
+                "BranchCode": "FP",
+                "Circulation": "66808"
+            },
+            {
+                "_id": 1155,
+                "Year": 2022,
+                "BranchCode": "FV",
+                "Circulation": "447214"
+            },
+            {
+                "_id": 1156,
+                "Year": 2022,
+                "BranchCode": "GE",
+                "Circulation": "99785"
+            },
+            {
+                "_id": 1157,
+                "Year": 2022,
+                "BranchCode": "GHP",
+                "Circulation": "118150"
+            },
+            {
+                "_id": 1158,
+                "Year": 2022,
+                "BranchCode": "GW",
+                "Circulation": "63224"
+            },
+            {
+                "_id": 1159,
+                "Year": 2022,
+                "BranchCode": "HB",
+                "Circulation": "83126"
+            },
+            {
+                "_id": 1160,
+                "Year": 2022,
+                "BranchCode": "HC",
+                "Circulation": "87911"
+            },
+            {
+                "_id": 1161,
+                "Year": 2022,
+                "BranchCode": "HIL",
+                "Circulation": "181066"
+            },
+            {
+                "_id": 1162,
+                "Year": 2022,
+                "BranchCode": "HLS",
+                "Circulation": "112093"
+            },
+            {
+                "_id": 1163,
+                "Year": 2022,
+                "BranchCode": "HP",
+                "Circulation": "200102"
+            },
+            {
+                "_id": 1164,
+                "Year": 2022,
+                "BranchCode": "HS",
+                "Circulation": "33951"
+            },
+            {
+                "_id": 1165,
+                "Year": 2022,
+                "BranchCode": "HW",
+                "Circulation": "29362"
+            },
+            {
+                "_id": 1166,
+                "Year": 2022,
+                "BranchCode": "IL",
+                "Circulation": "4433"
+            },
+            {
+                "_id": 1167,
+                "Year": 2022,
+                "BranchCode": "JD",
+                "Circulation": "200464"
+            },
+            {
+                "_id": 1168,
+                "Year": 2022,
+                "BranchCode": "JO",
+                "Circulation": "108010"
+            },
+            {
+                "_id": 1169,
+                "Year": 2022,
+                "BranchCode": "JS",
+                "Circulation": "70105"
+            },
+            {
+                "_id": 1170,
+                "Year": 2022,
+                "BranchCode": "KE",
+                "Circulation": "110971"
+            },
+            {
+                "_id": 1171,
+                "Year": 2022,
+                "BranchCode": "LB",
+                "Circulation": "90655"
+            },
+            {
+                "_id": 1172,
+                "Year": 2022,
+                "BranchCode": "LD",
+                "Circulation": "26"
+            },
+            {
+                "_id": 1173,
+                "Year": 2022,
+                "BranchCode": "LE",
+                "Circulation": "282606"
+            },
+            {
+                "_id": 1174,
+                "Year": 2022,
+                "BranchCode": "LO",
+                "Circulation": "162948"
+            },
+            {
+                "_id": 1175,
+                "Year": 2022,
+                "BranchCode": "LS",
+                "Circulation": "237732"
+            },
+            {
+                "_id": 1176,
+                "Year": 2022,
+                "BranchCode": "MA",
+                "Circulation": "225908"
+            },
+            {
+                "_id": 1177,
+                "Year": 2022,
+                "BranchCode": "MAL",
+                "Circulation": "210714"
+            },
+            {
+                "_id": 1178,
+                "Year": 2022,
+                "BranchCode": "MAS",
+                "Circulation": "138093"
+            },
+            {
+                "_id": 1179,
+                "Year": 2022,
+                "BranchCode": "MCG",
+                "Circulation": "101179"
+            },
+            {
+                "_id": 1180,
+                "Year": 2022,
+                "BranchCode": "MD",
+                "Circulation": "73517"
+            },
+            {
+                "_id": 1181,
+                "Year": 2022,
+                "BranchCode": "ME",
+                "Circulation": "11"
+            },
+            {
+                "_id": 1182,
+                "Year": 2022,
+                "BranchCode": "MI",
+                "Circulation": "161819"
+            },
+            {
+                "_id": 1183,
+                "Year": 2022,
+                "BranchCode": "MP",
+                "Circulation": "10191"
+            },
+            {
+                "_id": 1184,
+                "Year": 2022,
+                "BranchCode": "MRV",
+                "Circulation": "55037"
+            },
+            {
+                "_id": 1185,
+                "Year": 2022,
+                "BranchCode": "MS",
+                "Circulation": "143361"
+            },
+            {
+                "_id": 1186,
+                "Year": 2022,
+                "BranchCode": "ND",
+                "Circulation": "380855"
+            },
+            {
+                "_id": 1187,
+                "Year": 2022,
+                "BranchCode": "NE",
+                "Circulation": "46726"
+            },
+            {
+                "_id": 1188,
+                "Year": 2022,
+                "BranchCode": "NT",
+                "Circulation": "78132"
+            },
+            {
+                "_id": 1189,
+                "Year": 2022,
+                "BranchCode": "OS",
+                "Circulation": "44"
+            },
+            {
+                "_id": 1190,
+                "Year": 2022,
+                "BranchCode": "OV",
+                "Circulation": "110991"
+            },
+            {
+                "_id": 1191,
+                "Year": 2022,
+                "BranchCode": "PA",
+                "Circulation": "268749"
+            },
+            {
+                "_id": 1192,
+                "Year": 2022,
+                "BranchCode": "PE",
+                "Circulation": "60143"
+            },
+            {
+                "_id": 1193,
+                "Year": 2022,
+                "BranchCode": "PK",
+                "Circulation": "279390"
+            },
+            {
+                "_id": 1194,
+                "Year": 2022,
+                "BranchCode": "PL",
+                "Circulation": "177165"
+            },
+            {
+                "_id": 1195,
+                "Year": 2022,
+                "BranchCode": "PM",
+                "Circulation": "184670"
+            },
+            {
+                "_id": 1196,
+                "Year": 2022,
+                "BranchCode": "PR",
+                "Circulation": "86453"
+            },
+            {
+                "_id": 1197,
+                "Year": 2022,
+                "BranchCode": "PU",
+                "Circulation": "109801"
+            },
+            {
+                "_id": 1198,
+                "Year": 2022,
+                "BranchCode": "PV",
+                "Circulation": "100288"
+            },
+            {
+                "_id": 1199,
+                "Year": 2022,
+                "BranchCode": "QS",
+                "Circulation": "73086"
+            },
+            {
+                "_id": 1200,
+                "Year": 2022,
+                "BranchCode": "RD",
+                "Circulation": "171092"
+            },
+            {
+                "_id": 1201,
+                "Year": 2022,
+                "BranchCode": "RI",
+                "Circulation": "398376"
+            },
+            {
+                "_id": 1202,
+                "Year": 2022,
+                "BranchCode": "RN",
+                "Circulation": "362744"
+            },
+            {
+                "_id": 1203,
+                "Year": 2022,
+                "BranchCode": "RX",
+                "Circulation": "35307"
+            },
+            {
+                "_id": 1204,
+                "Year": 2022,
+                "BranchCode": "SA",
+                "Circulation": "102407"
+            },
+            {
+                "_id": 1205,
+                "Year": 2022,
+                "BranchCode": "SB",
+                "Circulation": "5519"
+            },
+            {
+                "_id": 1206,
+                "Year": 2022,
+                "BranchCode": "SC",
+                "Circulation": "134117"
+            },
+            {
+                "_id": 1207,
+                "Year": 2022,
+                "BranchCode": "SI",
+                "Circulation": "44750"
+            },
+            {
+                "_id": 1208,
+                "Year": 2022,
+                "BranchCode": "SJ",
+                "Circulation": "81061"
+            },
+            {
+                "_id": 1209,
+                "Year": 2022,
+                "BranchCode": "SL",
+                "Circulation": "146566"
+            },
+            {
+                "_id": 1210,
+                "Year": 2022,
+                "BranchCode": "SP",
+                "Circulation": "72202"
+            },
+            {
+                "_id": 1211,
+                "Year": 2022,
+                "BranchCode": "ST",
+                "Circulation": "132901"
+            },
+            {
+                "_id": 1212,
+                "Year": 2022,
+                "BranchCode": "SW",
+                "Circulation": "16345"
+            },
+            {
+                "_id": 1213,
+                "Year": 2022,
+                "BranchCode": "SWS",
+                "Circulation": "338947"
+            },
+            {
+                "_id": 1214,
+                "Year": 2022,
+                "BranchCode": "TA",
+                "Circulation": "78732"
+            },
+            {
+                "_id": 1215,
+                "Year": 2022,
+                "BranchCode": "TH",
+                "Circulation": "91727"
+            },
+            {
+                "_id": 1216,
+                "Year": 2022,
+                "BranchCode": "TOD",
+                "Circulation": "20919"
+            },
+            {
+                "_id": 1217,
+                "Year": 2022,
+                "BranchCode": "TRL",
+                "Circulation": "239509"
+            },
+            {
+                "_id": 1218,
+                "Year": 2022,
+                "BranchCode": "VIR",
+                "Circulation": "10798160"
+            },
+            {
+                "_id": 1219,
+                "Year": 2022,
+                "BranchCode": "VV",
+                "Circulation": "49054"
+            },
+            {
+                "_id": 1220,
+                "Year": 2022,
+                "BranchCode": "WE",
+                "Circulation": "78666"
+            },
+            {
+                "_id": 1221,
+                "Year": 2022,
+                "BranchCode": "WP",
+                "Circulation": "35084"
+            },
+            {
+                "_id": 1222,
+                "Year": 2022,
+                "BranchCode": "WS",
+                "Circulation": "176330"
+            },
+            {
+                "_id": 1223,
+                "Year": 2022,
+                "BranchCode": "WY",
+                "Circulation": "47953"
+            },
+            {
+                "_id": 1224,
+                "Year": 2022,
+                "BranchCode": "YO",
+                "Circulation": "142124"
+            },
+            {
+                "_id": 1225,
+                "Year": 2022,
+                "BranchCode": "YW",
+                "Circulation": "43695"
+            }
+        ],
+        "fields": [
+            {
+                "id": "_id",
+                "type": "int"
+            },
+            {
+                "id": "Year",
+                "type": "int4",
+                "info": {
+                    "label": "",
+                    "notes": "The transaction year.",
+                    "type_override": ""
+                }
+            },
+            {
+                "id": "BranchCode",
+                "type": "text",
+                "info": {
+                    "label": "",
+                    "notes": "A code identifying the TPL branch where materials were borrowed/renewed. Online renewals of physical items are attributed to the home branch of the renewing customer. \r\nDetails for each code can be found in the [branch information dataset](https://open.toronto.ca/dataset/library-branch-general-information).\r\n",
+                    "type_override": ""
+                }
+            },
+            {
+                "id": "Circulation",
+                "type": "text",
+                "info": {
+                    "label": "",
+                    "notes": "The total number of items borrowed/renewed.",
+                    "type_override": ""
+                }
+            }
+        ],
+        "_links": {
+            "start": "/api/3/action/datastore_search?id=18e9b8ba-b4b1-4a2d-8e56-0fffab64c525&limit=250",
+            "next": "/api/3/action/datastore_search?id=18e9b8ba-b4b1-4a2d-8e56-0fffab64c525&offset=1363&limit=250",
+            "prev": "/api/3/action/datastore_search?id=18e9b8ba-b4b1-4a2d-8e56-0fffab64c525&offset=863&limit=250"
+        },
+        "total": 1225,
+        "total_was_estimated": false
+    }
+}

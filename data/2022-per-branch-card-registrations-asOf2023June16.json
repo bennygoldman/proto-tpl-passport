@@ -1,1 +1,684 @@
-{"help": "https://ckan0.cf.opendata.inter.prod-toronto.ca/api/3/action/help_show?name=datastore_search", "success": true, "result": {"include_total": true, "limit": 150, "offset": 1064, "records_format": "objects", "resource_id": "4b7601eb-e753-4dce-92be-e90ae1ae24cd", "total_estimation_threshold": null, "records": [{"_id":1065,"Year":2022,"BranchCode":"AB","Registrations":"5093"},{"_id":1066,"Year":2022,"BranchCode":"ACD","Registrations":"1577"},{"_id":1067,"Year":2022,"BranchCode":"AD","Registrations":"711"},{"_id":1068,"Year":2022,"BranchCode":"AG","Registrations":"2959"},{"_id":1069,"Year":2022,"BranchCode":"AH","Registrations":"398"},{"_id":1070,"Year":2022,"BranchCode":"AN","Registrations":"905"},{"_id":1071,"Year":2022,"BranchCode":"AP","Registrations":"1019"},{"_id":1072,"Year":2022,"BranchCode":"BB","Registrations":"933"},{"_id":1073,"Year":2022,"BranchCode":"BC","Registrations":"994"},{"_id":1074,"Year":2022,"BranchCode":"BD","Registrations":"942"},{"_id":1075,"Year":2022,"BranchCode":"BE","Registrations":"1587"},{"_id":1076,"Year":2022,"BranchCode":"BF","Registrations":"2125"},{"_id":1077,"Year":2022,"BranchCode":"BKONE","Registrations":"114"},{"_id":1078,"Year":2022,"BranchCode":"BL","Registrations":"2694"},{"_id":1079,"Year":2022,"BranchCode":"BR","Registrations":"2116"},{"_id":1080,"Year":2022,"BranchCode":"BRW","Registrations":"2632"},{"_id":1081,"Year":2022,"BranchCode":"BUR","Registrations":"835"},{"_id":1082,"Year":2022,"BranchCode":"CC","Registrations":"1154"},{"_id":1083,"Year":2022,"BranchCode":"CE","Registrations":"1848"},{"_id":1084,"Year":2022,"BranchCode":"CED","Registrations":"3543"},{"_id":1085,"Year":2022,"BranchCode":"CH","Registrations":"1938"},{"_id":1086,"Year":2022,"BranchCode":"CL","Registrations":"9855"},{"_id":1087,"Year":2022,"BranchCode":"CS","Registrations":"1044"},{"_id":1088,"Year":2022,"BranchCode":"DA","Registrations":"1296"},{"_id":1089,"Year":2022,"BranchCode":"DM","Registrations":"1982"},{"_id":1090,"Year":2022,"BranchCode":"DO","Registrations":"1978"},{"_id":1091,"Year":2022,"BranchCode":"DP","Registrations":"1792"},{"_id":1092,"Year":2022,"BranchCode":"DR","Registrations":"1149"},{"_id":1093,"Year":2022,"BranchCode":"DS","Registrations":"1"},{"_id":1094,"Year":2022,"BranchCode":"DT","Registrations":"367"},{"_id":1095,"Year":2022,"BranchCode":"DU","Registrations":"1010"},{"_id":1096,"Year":2022,"BranchCode":"EA","Registrations":"2771"},{"_id":1097,"Year":2022,"BranchCode":"EB","Registrations":"514"},{"_id":1098,"Year":2022,"BranchCode":"EG","Registrations":"584"},{"_id":1099,"Year":2022,"BranchCode":"EN","Registrations":"2031"},{"_id":1100,"Year":2022,"BranchCode":"ES","Registrations":"1928"},{"_id":1101,"Year":2022,"BranchCode":"FH","Registrations":"889"},{"_id":1102,"Year":2022,"BranchCode":"FO","Registrations":"4509"},{"_id":1103,"Year":2022,"BranchCode":"FP","Registrations":"1221"},{"_id":1104,"Year":2022,"BranchCode":"FV","Registrations":"5675"},{"_id":1105,"Year":2022,"BranchCode":"GE","Registrations":"509"},{"_id":1106,"Year":2022,"BranchCode":"GHP","Registrations":"819"},{"_id":1107,"Year":2022,"BranchCode":"GW","Registrations":"430"},{"_id":1108,"Year":2022,"BranchCode":"HB","Registrations":"651"},{"_id":1109,"Year":2022,"BranchCode":"HC","Registrations":"811"},{"_id":1110,"Year":2022,"BranchCode":"HIL","Registrations":"771"},{"_id":1111,"Year":2022,"BranchCode":"HLS","Registrations":"37"},{"_id":1112,"Year":2022,"BranchCode":"HP","Registrations":"1167"},{"_id":1113,"Year":2022,"BranchCode":"HS","Registrations":"481"},{"_id":1114,"Year":2022,"BranchCode":"HW","Registrations":"574"},{"_id":1115,"Year":2022,"BranchCode":"JD","Registrations":"1404"},{"_id":1116,"Year":2022,"BranchCode":"JO","Registrations":"748"},{"_id":1117,"Year":2022,"BranchCode":"JS","Registrations":"1398"},{"_id":1118,"Year":2022,"BranchCode":"KE","Registrations":"1859"},{"_id":1119,"Year":2022,"BranchCode":"LB","Registrations":"736"},{"_id":1120,"Year":2022,"BranchCode":"LE","Registrations":"1432"},{"_id":1121,"Year":2022,"BranchCode":"LO","Registrations":"1204"},{"_id":1122,"Year":2022,"BranchCode":"LS","Registrations":"3242"},{"_id":1123,"Year":2022,"BranchCode":"MA","Registrations":"1040"},{"_id":1124,"Year":2022,"BranchCode":"MAL","Registrations":"2799"},{"_id":1125,"Year":2022,"BranchCode":"MAS","Registrations":"1424"},{"_id":1126,"Year":2022,"BranchCode":"MCG","Registrations":"1434"},{"_id":1127,"Year":2022,"BranchCode":"MD","Registrations":"866"},{"_id":1128,"Year":2022,"BranchCode":"MI","Registrations":"935"},{"_id":1129,"Year":2022,"BranchCode":"MP","Registrations":"7"},{"_id":1130,"Year":2022,"BranchCode":"MRV","Registrations":"1340"},{"_id":1131,"Year":2022,"BranchCode":"MS","Registrations":"1557"},{"_id":1132,"Year":2022,"BranchCode":"ND","Registrations":"3819"},{"_id":1133,"Year":2022,"BranchCode":"NE","Registrations":"380"},{"_id":1134,"Year":2022,"BranchCode":"NT","Registrations":"698"},{"_id":1135,"Year":2022,"BranchCode":"OV","Registrations":"691"},{"_id":1136,"Year":2022,"BranchCode":"PA","Registrations":"1515"},{"_id":1137,"Year":2022,"BranchCode":"PE","Registrations":"442"},{"_id":1138,"Year":2022,"BranchCode":"PK","Registrations":"2718"},{"_id":1139,"Year":2022,"BranchCode":"PL","Registrations":"1873"},{"_id":1140,"Year":2022,"BranchCode":"PM","Registrations":"879"},{"_id":1141,"Year":2022,"BranchCode":"PU","Registrations":"838"},{"_id":1142,"Year":2022,"BranchCode":"PV","Registrations":"582"},{"_id":1143,"Year":2022,"BranchCode":"QS","Registrations":"620"},{"_id":1144,"Year":2022,"BranchCode":"RD","Registrations":"976"},{"_id":1145,"Year":2022,"BranchCode":"RI","Registrations":"3175"},{"_id":1146,"Year":2022,"BranchCode":"RN","Registrations":"2074"},{"_id":1147,"Year":2022,"BranchCode":"RX","Registrations":"365"},{"_id":1148,"Year":2022,"BranchCode":"SA","Registrations":"1257"},{"_id":1149,"Year":2022,"BranchCode":"SB","Registrations":"81"},{"_id":1150,"Year":2022,"BranchCode":"SC","Registrations":"2536"},{"_id":1151,"Year":2022,"BranchCode":"SI","Registrations":"450"},{"_id":1152,"Year":2022,"BranchCode":"SJ","Registrations":"1864"},{"_id":1153,"Year":2022,"BranchCode":"SL","Registrations":"1880"},{"_id":1154,"Year":2022,"BranchCode":"SP","Registrations":"747"},{"_id":1155,"Year":2022,"BranchCode":"ST","Registrations":"1097"},{"_id":1156,"Year":2022,"BranchCode":"SW","Registrations":"157"},{"_id":1157,"Year":2022,"BranchCode":"SWS","Registrations":"1488"},{"_id":1158,"Year":2022,"BranchCode":"TA","Registrations":"408"},{"_id":1159,"Year":2022,"BranchCode":"TH","Registrations":"1589"},{"_id":1160,"Year":2022,"BranchCode":"TOD","Registrations":"183"},{"_id":1161,"Year":2022,"BranchCode":"TRL","Registrations":"9448"},{"_id":1162,"Year":2022,"BranchCode":"VIR","Registrations":"28250"},{"_id":1163,"Year":2022,"BranchCode":"VV","Registrations":"444"},{"_id":1164,"Year":2022,"BranchCode":"WE","Registrations":"1080"},{"_id":1165,"Year":2022,"BranchCode":"WP","Registrations":"413"},{"_id":1166,"Year":2022,"BranchCode":"WS","Registrations":"1788"},{"_id":1167,"Year":2022,"BranchCode":"WY","Registrations":"1035"},{"_id":1168,"Year":2022,"BranchCode":"YO","Registrations":"1081"},{"_id":1169,"Year":2022,"BranchCode":"YW","Registrations":"1116"}], "fields": [{"id": "_id", "type": "int"}, {"id": "Year", "type": "int4", "info": {"label": "", "notes": "The transaction year.", "type_override": ""}}, {"id": "BranchCode", "type": "text", "info": {"label": "", "notes": "A code identifying the TPL library assigned as an individual\u2019s home branch at the time of registration. \r\nDetails for each code can be found in the [branch information dataset](https://open.toronto.ca/dataset/library-branch-general-information).\r\n", "type_override": ""}}, {"id": "Registrations", "type": "text", "info": {"label": "", "notes": "The total number of library card registrations", "type_override": ""}}], "_links": {"start": "/api/3/action/datastore_search?id=4b7601eb-e753-4dce-92be-e90ae1ae24cd&limit=150", "next": "/api/3/action/datastore_search?id=4b7601eb-e753-4dce-92be-e90ae1ae24cd&offset=1214&limit=150", "prev": "/api/3/action/datastore_search?id=4b7601eb-e753-4dce-92be-e90ae1ae24cd&offset=914&limit=150"}, "total": 1169, "total_was_estimated": false}}
+{
+    "help": "https://ckan0.cf.opendata.inter.prod-toronto.ca/api/3/action/help_show?name=datastore_search",
+    "success": true,
+    "result": {
+        "include_total": true,
+        "limit": 150,
+        "offset": 1064,
+        "records_format": "objects",
+        "resource_id": "4b7601eb-e753-4dce-92be-e90ae1ae24cd",
+        "total_estimation_threshold": null,
+        "records": [
+            {
+                "_id": 1065,
+                "Year": 2022,
+                "BranchCode": "AB",
+                "Registrations": "5093"
+            },
+            {
+                "_id": 1066,
+                "Year": 2022,
+                "BranchCode": "ACD",
+                "Registrations": "1577"
+            },
+            {
+                "_id": 1067,
+                "Year": 2022,
+                "BranchCode": "AD",
+                "Registrations": "711"
+            },
+            {
+                "_id": 1068,
+                "Year": 2022,
+                "BranchCode": "AG",
+                "Registrations": "2959"
+            },
+            {
+                "_id": 1069,
+                "Year": 2022,
+                "BranchCode": "AH",
+                "Registrations": "398"
+            },
+            {
+                "_id": 1070,
+                "Year": 2022,
+                "BranchCode": "AN",
+                "Registrations": "905"
+            },
+            {
+                "_id": 1071,
+                "Year": 2022,
+                "BranchCode": "AP",
+                "Registrations": "1019"
+            },
+            {
+                "_id": 1072,
+                "Year": 2022,
+                "BranchCode": "BB",
+                "Registrations": "933"
+            },
+            {
+                "_id": 1073,
+                "Year": 2022,
+                "BranchCode": "BC",
+                "Registrations": "994"
+            },
+            {
+                "_id": 1074,
+                "Year": 2022,
+                "BranchCode": "BD",
+                "Registrations": "942"
+            },
+            {
+                "_id": 1075,
+                "Year": 2022,
+                "BranchCode": "BE",
+                "Registrations": "1587"
+            },
+            {
+                "_id": 1076,
+                "Year": 2022,
+                "BranchCode": "BF",
+                "Registrations": "2125"
+            },
+            {
+                "_id": 1077,
+                "Year": 2022,
+                "BranchCode": "BKONE",
+                "Registrations": "114"
+            },
+            {
+                "_id": 1078,
+                "Year": 2022,
+                "BranchCode": "BL",
+                "Registrations": "2694"
+            },
+            {
+                "_id": 1079,
+                "Year": 2022,
+                "BranchCode": "BR",
+                "Registrations": "2116"
+            },
+            {
+                "_id": 1080,
+                "Year": 2022,
+                "BranchCode": "BRW",
+                "Registrations": "2632"
+            },
+            {
+                "_id": 1081,
+                "Year": 2022,
+                "BranchCode": "BUR",
+                "Registrations": "835"
+            },
+            {
+                "_id": 1082,
+                "Year": 2022,
+                "BranchCode": "CC",
+                "Registrations": "1154"
+            },
+            {
+                "_id": 1083,
+                "Year": 2022,
+                "BranchCode": "CE",
+                "Registrations": "1848"
+            },
+            {
+                "_id": 1084,
+                "Year": 2022,
+                "BranchCode": "CED",
+                "Registrations": "3543"
+            },
+            {
+                "_id": 1085,
+                "Year": 2022,
+                "BranchCode": "CH",
+                "Registrations": "1938"
+            },
+            {
+                "_id": 1086,
+                "Year": 2022,
+                "BranchCode": "CL",
+                "Registrations": "9855"
+            },
+            {
+                "_id": 1087,
+                "Year": 2022,
+                "BranchCode": "CS",
+                "Registrations": "1044"
+            },
+            {
+                "_id": 1088,
+                "Year": 2022,
+                "BranchCode": "DA",
+                "Registrations": "1296"
+            },
+            {
+                "_id": 1089,
+                "Year": 2022,
+                "BranchCode": "DM",
+                "Registrations": "1982"
+            },
+            {
+                "_id": 1090,
+                "Year": 2022,
+                "BranchCode": "DO",
+                "Registrations": "1978"
+            },
+            {
+                "_id": 1091,
+                "Year": 2022,
+                "BranchCode": "DP",
+                "Registrations": "1792"
+            },
+            {
+                "_id": 1092,
+                "Year": 2022,
+                "BranchCode": "DR",
+                "Registrations": "1149"
+            },
+            {
+                "_id": 1093,
+                "Year": 2022,
+                "BranchCode": "DS",
+                "Registrations": "1"
+            },
+            {
+                "_id": 1094,
+                "Year": 2022,
+                "BranchCode": "DT",
+                "Registrations": "367"
+            },
+            {
+                "_id": 1095,
+                "Year": 2022,
+                "BranchCode": "DU",
+                "Registrations": "1010"
+            },
+            {
+                "_id": 1096,
+                "Year": 2022,
+                "BranchCode": "EA",
+                "Registrations": "2771"
+            },
+            {
+                "_id": 1097,
+                "Year": 2022,
+                "BranchCode": "EB",
+                "Registrations": "514"
+            },
+            {
+                "_id": 1098,
+                "Year": 2022,
+                "BranchCode": "EG",
+                "Registrations": "584"
+            },
+            {
+                "_id": 1099,
+                "Year": 2022,
+                "BranchCode": "EN",
+                "Registrations": "2031"
+            },
+            {
+                "_id": 1100,
+                "Year": 2022,
+                "BranchCode": "ES",
+                "Registrations": "1928"
+            },
+            {
+                "_id": 1101,
+                "Year": 2022,
+                "BranchCode": "FH",
+                "Registrations": "889"
+            },
+            {
+                "_id": 1102,
+                "Year": 2022,
+                "BranchCode": "FO",
+                "Registrations": "4509"
+            },
+            {
+                "_id": 1103,
+                "Year": 2022,
+                "BranchCode": "FP",
+                "Registrations": "1221"
+            },
+            {
+                "_id": 1104,
+                "Year": 2022,
+                "BranchCode": "FV",
+                "Registrations": "5675"
+            },
+            {
+                "_id": 1105,
+                "Year": 2022,
+                "BranchCode": "GE",
+                "Registrations": "509"
+            },
+            {
+                "_id": 1106,
+                "Year": 2022,
+                "BranchCode": "GHP",
+                "Registrations": "819"
+            },
+            {
+                "_id": 1107,
+                "Year": 2022,
+                "BranchCode": "GW",
+                "Registrations": "430"
+            },
+            {
+                "_id": 1108,
+                "Year": 2022,
+                "BranchCode": "HB",
+                "Registrations": "651"
+            },
+            {
+                "_id": 1109,
+                "Year": 2022,
+                "BranchCode": "HC",
+                "Registrations": "811"
+            },
+            {
+                "_id": 1110,
+                "Year": 2022,
+                "BranchCode": "HIL",
+                "Registrations": "771"
+            },
+            {
+                "_id": 1111,
+                "Year": 2022,
+                "BranchCode": "HLS",
+                "Registrations": "37"
+            },
+            {
+                "_id": 1112,
+                "Year": 2022,
+                "BranchCode": "HP",
+                "Registrations": "1167"
+            },
+            {
+                "_id": 1113,
+                "Year": 2022,
+                "BranchCode": "HS",
+                "Registrations": "481"
+            },
+            {
+                "_id": 1114,
+                "Year": 2022,
+                "BranchCode": "HW",
+                "Registrations": "574"
+            },
+            {
+                "_id": 1115,
+                "Year": 2022,
+                "BranchCode": "JD",
+                "Registrations": "1404"
+            },
+            {
+                "_id": 1116,
+                "Year": 2022,
+                "BranchCode": "JO",
+                "Registrations": "748"
+            },
+            {
+                "_id": 1117,
+                "Year": 2022,
+                "BranchCode": "JS",
+                "Registrations": "1398"
+            },
+            {
+                "_id": 1118,
+                "Year": 2022,
+                "BranchCode": "KE",
+                "Registrations": "1859"
+            },
+            {
+                "_id": 1119,
+                "Year": 2022,
+                "BranchCode": "LB",
+                "Registrations": "736"
+            },
+            {
+                "_id": 1120,
+                "Year": 2022,
+                "BranchCode": "LE",
+                "Registrations": "1432"
+            },
+            {
+                "_id": 1121,
+                "Year": 2022,
+                "BranchCode": "LO",
+                "Registrations": "1204"
+            },
+            {
+                "_id": 1122,
+                "Year": 2022,
+                "BranchCode": "LS",
+                "Registrations": "3242"
+            },
+            {
+                "_id": 1123,
+                "Year": 2022,
+                "BranchCode": "MA",
+                "Registrations": "1040"
+            },
+            {
+                "_id": 1124,
+                "Year": 2022,
+                "BranchCode": "MAL",
+                "Registrations": "2799"
+            },
+            {
+                "_id": 1125,
+                "Year": 2022,
+                "BranchCode": "MAS",
+                "Registrations": "1424"
+            },
+            {
+                "_id": 1126,
+                "Year": 2022,
+                "BranchCode": "MCG",
+                "Registrations": "1434"
+            },
+            {
+                "_id": 1127,
+                "Year": 2022,
+                "BranchCode": "MD",
+                "Registrations": "866"
+            },
+            {
+                "_id": 1128,
+                "Year": 2022,
+                "BranchCode": "MI",
+                "Registrations": "935"
+            },
+            {
+                "_id": 1129,
+                "Year": 2022,
+                "BranchCode": "MP",
+                "Registrations": "7"
+            },
+            {
+                "_id": 1130,
+                "Year": 2022,
+                "BranchCode": "MRV",
+                "Registrations": "1340"
+            },
+            {
+                "_id": 1131,
+                "Year": 2022,
+                "BranchCode": "MS",
+                "Registrations": "1557"
+            },
+            {
+                "_id": 1132,
+                "Year": 2022,
+                "BranchCode": "ND",
+                "Registrations": "3819"
+            },
+            {
+                "_id": 1133,
+                "Year": 2022,
+                "BranchCode": "NE",
+                "Registrations": "380"
+            },
+            {
+                "_id": 1134,
+                "Year": 2022,
+                "BranchCode": "NT",
+                "Registrations": "698"
+            },
+            {
+                "_id": 1135,
+                "Year": 2022,
+                "BranchCode": "OV",
+                "Registrations": "691"
+            },
+            {
+                "_id": 1136,
+                "Year": 2022,
+                "BranchCode": "PA",
+                "Registrations": "1515"
+            },
+            {
+                "_id": 1137,
+                "Year": 2022,
+                "BranchCode": "PE",
+                "Registrations": "442"
+            },
+            {
+                "_id": 1138,
+                "Year": 2022,
+                "BranchCode": "PK",
+                "Registrations": "2718"
+            },
+            {
+                "_id": 1139,
+                "Year": 2022,
+                "BranchCode": "PL",
+                "Registrations": "1873"
+            },
+            {
+                "_id": 1140,
+                "Year": 2022,
+                "BranchCode": "PM",
+                "Registrations": "879"
+            },
+            {
+                "_id": 1141,
+                "Year": 2022,
+                "BranchCode": "PU",
+                "Registrations": "838"
+            },
+            {
+                "_id": 1142,
+                "Year": 2022,
+                "BranchCode": "PV",
+                "Registrations": "582"
+            },
+            {
+                "_id": 1143,
+                "Year": 2022,
+                "BranchCode": "QS",
+                "Registrations": "620"
+            },
+            {
+                "_id": 1144,
+                "Year": 2022,
+                "BranchCode": "RD",
+                "Registrations": "976"
+            },
+            {
+                "_id": 1145,
+                "Year": 2022,
+                "BranchCode": "RI",
+                "Registrations": "3175"
+            },
+            {
+                "_id": 1146,
+                "Year": 2022,
+                "BranchCode": "RN",
+                "Registrations": "2074"
+            },
+            {
+                "_id": 1147,
+                "Year": 2022,
+                "BranchCode": "RX",
+                "Registrations": "365"
+            },
+            {
+                "_id": 1148,
+                "Year": 2022,
+                "BranchCode": "SA",
+                "Registrations": "1257"
+            },
+            {
+                "_id": 1149,
+                "Year": 2022,
+                "BranchCode": "SB",
+                "Registrations": "81"
+            },
+            {
+                "_id": 1150,
+                "Year": 2022,
+                "BranchCode": "SC",
+                "Registrations": "2536"
+            },
+            {
+                "_id": 1151,
+                "Year": 2022,
+                "BranchCode": "SI",
+                "Registrations": "450"
+            },
+            {
+                "_id": 1152,
+                "Year": 2022,
+                "BranchCode": "SJ",
+                "Registrations": "1864"
+            },
+            {
+                "_id": 1153,
+                "Year": 2022,
+                "BranchCode": "SL",
+                "Registrations": "1880"
+            },
+            {
+                "_id": 1154,
+                "Year": 2022,
+                "BranchCode": "SP",
+                "Registrations": "747"
+            },
+            {
+                "_id": 1155,
+                "Year": 2022,
+                "BranchCode": "ST",
+                "Registrations": "1097"
+            },
+            {
+                "_id": 1156,
+                "Year": 2022,
+                "BranchCode": "SW",
+                "Registrations": "157"
+            },
+            {
+                "_id": 1157,
+                "Year": 2022,
+                "BranchCode": "SWS",
+                "Registrations": "1488"
+            },
+            {
+                "_id": 1158,
+                "Year": 2022,
+                "BranchCode": "TA",
+                "Registrations": "408"
+            },
+            {
+                "_id": 1159,
+                "Year": 2022,
+                "BranchCode": "TH",
+                "Registrations": "1589"
+            },
+            {
+                "_id": 1160,
+                "Year": 2022,
+                "BranchCode": "TOD",
+                "Registrations": "183"
+            },
+            {
+                "_id": 1161,
+                "Year": 2022,
+                "BranchCode": "TRL",
+                "Registrations": "9448"
+            },
+            {
+                "_id": 1162,
+                "Year": 2022,
+                "BranchCode": "VIR",
+                "Registrations": "28250"
+            },
+            {
+                "_id": 1163,
+                "Year": 2022,
+                "BranchCode": "VV",
+                "Registrations": "444"
+            },
+            {
+                "_id": 1164,
+                "Year": 2022,
+                "BranchCode": "WE",
+                "Registrations": "1080"
+            },
+            {
+                "_id": 1165,
+                "Year": 2022,
+                "BranchCode": "WP",
+                "Registrations": "413"
+            },
+            {
+                "_id": 1166,
+                "Year": 2022,
+                "BranchCode": "WS",
+                "Registrations": "1788"
+            },
+            {
+                "_id": 1167,
+                "Year": 2022,
+                "BranchCode": "WY",
+                "Registrations": "1035"
+            },
+            {
+                "_id": 1168,
+                "Year": 2022,
+                "BranchCode": "YO",
+                "Registrations": "1081"
+            },
+            {
+                "_id": 1169,
+                "Year": 2022,
+                "BranchCode": "YW",
+                "Registrations": "1116"
+            }
+        ],
+        "fields": [
+            {
+                "id": "_id",
+                "type": "int"
+            },
+            {
+                "id": "Year",
+                "type": "int4",
+                "info": {
+                    "label": "",
+                    "notes": "The transaction year.",
+                    "type_override": ""
+                }
+            },
+            {
+                "id": "BranchCode",
+                "type": "text",
+                "info": {
+                    "label": "",
+                    "notes": "A code identifying the TPL library assigned as an individual\u2019s home branch at the time of registration. \r\nDetails for each code can be found in the [branch information dataset](https://open.toronto.ca/dataset/library-branch-general-information).\r\n",
+                    "type_override": ""
+                }
+            },
+            {
+                "id": "Registrations",
+                "type": "text",
+                "info": {
+                    "label": "",
+                    "notes": "The total number of library card registrations",
+                    "type_override": ""
+                }
+            }
+        ],
+        "_links": {
+            "start": "/api/3/action/datastore_search?id=4b7601eb-e753-4dce-92be-e90ae1ae24cd&limit=150",
+            "next": "/api/3/action/datastore_search?id=4b7601eb-e753-4dce-92be-e90ae1ae24cd&offset=1214&limit=150",
+            "prev": "/api/3/action/datastore_search?id=4b7601eb-e753-4dce-92be-e90ae1ae24cd&offset=914&limit=150"
+        },
+        "total": 1169,
+        "total_was_estimated": false
+    }
+}
