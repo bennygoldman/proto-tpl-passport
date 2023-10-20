@@ -8,6 +8,14 @@ TO DO:
 -- Build front-end
 -- Bring back Favorite Book
 
+// STYLES //
+Nav background: #001c71
+Nav background hover: #0051B1
+Link: #005FC0
+Link hover: #002A95
+Font stack: Open Sans,Helvetica,Arial,sans-serif;
+Logo: In assets folder
+
 // // // // // // // // // // // // // // // // // // // // // // 
 // // // // // // // // // // // // // // // // // // // // // // 
 */
