@@ -7,6 +7,11 @@ TO DO:
 -- Add ways to get total visits to all branches + all stamps
 -- Build front-end
 -- Bring back Favorite Book
+-- Build utils to take most of this out of the main script
+-- -- functions for eventListeners
+-- -- adjust the fetch calls
+-- -- set the dropdown by setting the library (add a one option select menu)
+-- -- add logic on form submission to create branches if they haven't been created already
 
 // STYLES //
 Nav background: #001c71
@@ -19,6 +24,9 @@ Logo: In assets folder
 // // // // // // // // // // // // // // // // // // // // // // 
 // // // // // // // // // // // // // // // // // // // // // // 
 */
+
+// import { testFunc, testFunc } from "./lib/utils";
+// const testFunc = require(testFunc);
 
 let setLibrary;
 const selectEl = document.getElementById('branchSelect');
@@ -82,7 +90,6 @@ const processPassportApplication = (formData, library) => {
     const dateCreated = new Date().toLocaleDateString();
     const uuid = crypto.randomUUID().toString();
     const pages = library.map(branch => processPassportPageData(branch));
-    console.log(pages);
     passport.dateCreated = dateCreated;
     passport.uuid = uuid;
     passport.pages = pages;
@@ -143,6 +150,7 @@ function handleSubmit(e) {
 
     if (form.elements.userName.value && form.elements.userType.value && form.elements.branchSelect.value) {
         const data = { userName: form.elements.userName.value, userType: form.elements.userType.value, homeBranch: form.elements.branchSelect.value };
+        console.log("Form Data:");
         console.log(data);
         processPassportApplication(data, setLibrary);
         e.target.reset();
@@ -180,16 +188,3 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error('Error:', error);
     }
 });
-
-const snippets = {
-    sort_text: ` const byWard = setLibrary.sort((a, b) => {
-        return a.ward.toLowerCase().localeCompare(b.ward.toLowerCase());
-
-    });
-    console.log(byWard);`,
-
-    fetch_helper: `function fetchLibraryData() {
-        return fetch('response.json')
-       .then(response => response.json());
-       }`
-};
