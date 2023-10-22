@@ -9,39 +9,101 @@
     <title>TPL:passport</title>
 </head>
 
-<body>
+<body style="background-color: black; color: lightgrey; margin: 0; padding: 0;">
+    <section id="form-section">
+        <form id="signUp">
+            <ul
+                style="list-style: none; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 1rem; width:fit-content; margin: 1rem; padding: 1rem; border: 1px solid lightgrey;">
+                <li style="width: 100%">
+                    <label for="userName">Name: </label>
+                    <input type="text" name="userName" id="userName" style="width: 100%; background-color: darkgray;">
+                </li>
+                <li style="width: 100%">
+                    <label for="branchSelect">Home branch:</label>
+                    <select id="branchSelect" style="background-color: darkgray;">
+                        <option value="" disabled selected>Select a branch</option>
+                        <!-- Options will be dynamically added here -->
+                    </select>
+                </li>
+                <fieldset>
+                    <legend>Age: </legend>
+                    <li>
+                        <input type="radio" name="userType" id="kid" value="kid">
+                        <label for="kid">Kid (0-12)</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="userType" id="teen" value="teen">
+                        <label for="teen">Teen (13-18)</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="userType" id="adult" value="adult">
+                        <label for="adult">Adult (19+)</label>
+                    </li>
+                </fieldset>
+                <li style="width: 100%;">
+                    <button id="submit" style="width: 100%; background-color: darkgray;">submit</button>
+                </li>
+            </ul>
+        </form>
+    </section>
 
-    <form id="signUp">
-        <ul
-            style="list-style: none; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 1rem; width:fit-content; margin: 1rem; padding: 1rem; border: 1px solid navy;">
-            <li style="width: 100%">
-                <label for="userName">Name: </label>
-                <input type="text" name="userName" id="userName" style="width: 100%;">
-            </li>
-            <li style="width: 100%">
-                <label for="branchSelect">Your home branch:</label>
-                <select id="branchSelect">
-                    <option value="" disabled selected>Select a branch</option>
-                    <!-- Options will be dynamically added here -->
-                </select>
-            </li>
-            <li>
-                <input type="radio" name="userType" id="kid" value="kid">
-                <label for="kid">Kid (0-12)</label>
-            </li>
-            <li>
-                <input type="radio" name="userType" id="teen" value="teen">
-                <label for="teen">Teen (13-18)</label>
-            </li>
-            <li>
-                <input type="radio" name="userType" id="adult" value="adult">
-                <label for="adult">Adult (19+)</label>
-            </li>
-            <li style="width: 100%;">
-                <button id="submit" style="width: 100%;">submit</button>
-            </li>
-        </ul>
-    </form>
+    <section id="user-passport">
+        <!-- Content added dynamically -->
+    </section>
+
+    <!-- <article style="border: 1px solid #001c71; width: fit-content;">
+        <div class="flex-div"
+            style="display: flex; flex-direction: column; justify-content: center; align-items: flex-start; background-color: #001c71; color: #fff; padding: 1rem; border: 2px solid white">
+            <h3 class="branchName" style="align-self: center;">Annette Street
+                <h3 />
+                <div class="stamp" style="color:greenyellow">
+                    STAMPED
+                    <img src="https://www.torontopubliclibrary.ca/content/branches/images/annette-street-library-exterior.jpg"
+                        alt="Library" style="width: 250px; margin: 0 auto;">
+                </div>
+                <ul style="list-style: none;margin: 0; padding: 0; display: flex;">
+                    <ul style="list-style: none;margin: 0; padding: 0;"">
+                        <li style=" margin: 0; padding: 0.5rem;">
+                        <sup style="margin: 0; padding: 0;">Address</sup>
+                        <p style="margin: 0; padding: 0;">145 Annette Street, Toronto, ON, M6P 1P3</p>
+                        </li>
+                        <li style="margin: 0; padding: 0.5rem;">
+                            <sup style="margin: 0; padding: 0;">Phone</sup>
+                            <p style="margin: 0; padding: 0;">416-393-7692</p>
+                        </li>
+                        <li style="margin: 0; padding: 0.5rem;">
+                            <sup style="margin: 0; padding: 0;">Website</sup>
+                            <p style="margin: 0; padding: 0; ">
+                                <a href="https://www.tpl.ca/annette"
+                                    style="margin: 0; padding: 0; text-decoration: none; color:inherit; &:hover{color: #0051B1;}">https://www.tpl.ca/annette</a>
+                            </p>
+                        </li>
+                    </ul>
+                    <ul style="list-style: none;margin: 0; padding: 0;"">
+                        <li style=" margin: 0; padding: 0.5rem;">
+                        <sup style="margin: 0; padding: 0;">Neighborhood</sup>
+                        <p style="margin: 0; padding: 0;">Parkdale-High Park</p>
+                        </li>
+                        <li style="margin: 0; padding: 0.5rem;">
+                            <sup style="margin: 0; padding: 0;">Opened in</sup>
+                            <p style="margin: 0; padding: 0;">1908</p>
+                        </li>
+                        <li style="margin: 0; padding: 0.5rem;">
+                            <p style="margin: 0; padding: 0;">6 visits</p>
+                    </ul>
+                </ul>
+                <div>
+                    <p>
+                        <span>12/15/2023</span> <span>12/18/2023</span> <span>12/25/2023</span>
+                    </p>
+                    <p>
+                        <span>12/15/2023</span> <span>12/18/2023</span> <span>12/25/2023</span>
+                    </p>
+                </div>
+                </ul>
+        </div>
+
+    </article> -->
     <script type="module" src="lib/utils.js"></script>
     <script type="module" src="script.js"></script>
 </body>

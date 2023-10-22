@@ -1,42 +1,57 @@
-/* 
-// // // // // // // // // // // // // // // // // // // // // // 
-// // // // // // // // // // // // // // // // // // // // // // 
-DONE: 
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+//                                                                                                                               //
+//            DONE:                                                                                                              //   
+//                    -- add logic on form submission to create branches if they haven't been created already                    //
+//                    -- adjust the fetch calls                                                                                  // 
+//                    -- Build front-end                                                                                         //
+//                                                                                                                               //
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+//                                                                                                                               //
+//            TO DO:                                                                                                             //
+//                    -- Add ways to get total visits to all branches + all stamps                                               //
+//                    -- Bring back Favorite Book                                                                                //
+//                    -- Build utils to take most of this out of the main script                                                 //
+//                    -- Functions for eventListeners                                                                            //
+//                    -- Set the dropdown by setting the library (add a one option select menu)                                  //
+//                    -- WRITE LOGIC TO ADD "SLUG" KEY INTO CREATEBRANCH - URL PART AFTER https:/www.tpl.ca/some-page            //
+//                                                                                                                               //
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+//                                                                                                                               //
+//           STYLES:                                                                                                             //
+//                   -- Nav background: #001c71                                                                                  //
+//                   -- Nav background hover: #0051B1                                                                            //
+//                   -- Link: #005FC0                                                                                            //
+//                   -- Link hover: #002A95                                                                                      //
+//                   -- Font stack: Open Sans,Helvetica,Arial,sans-serif;                                                        //
+//                   -- Logo: In assets folder                                                                                   //
+//                                                                                                                               //
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
 
-TO DO:
--- Add ways to get total visits to all branches + all stamps
--- Build front-end
--- Bring back Favorite Book
--- Build utils to take most of this out of the main script
--- -- functions for eventListeners
--- -- adjust the fetch calls
--- -- set the dropdown by setting the library (add a one option select menu)
--- -- add logic on form submission to create branches if they haven't been created already
 
-// STYLES //
-Nav background: #001c71
-Nav background hover: #0051B1
-Link: #005FC0
-Link hover: #002A95
-Font stack: Open Sans,Helvetica,Arial,sans-serif;
-Logo: In assets folder
+// import { testFunc } from "./lib/utils.js";
 
-// // // // // // // // // // // // // // // // // // // // // // 
-// // // // // // // // // // // // // // // // // // // // // // 
-*/
+const URL_TORONTO_PUBLIC_LIBRARY = './data/response.json';
 
-// import { testFunc, testFunc } from "./lib/utils";
-// const testFunc = require(testFunc);
-
-let setLibrary;
-const selectEl = document.getElementById('branchSelect');
-const form = document.getElementById('signUp');
-form.addEventListener('submit', handleSubmit);
-const URL_TORONTO_PUBLIC_LIBRARY = 'response.json';
+async function defineLibrary(apiUrl = URL_TORONTO_PUBLIC_LIBRARY) {
+    try {
+        const data = await fetchLibraryData(apiUrl);
+        return data.result.records
+            .filter(branch => branch?.PhysicalBranch === 1)
+            .map(branch => processBranchData(branch));
+    } catch (error) {
+        console.error('Error fetching or processing library data:', error);
+        return null;
+    }
+}
 
 function createBranch(branchData) {
+
     const {
-        _id,
+        // _id,
         BranchCode,
         BranchName,
         Address,
@@ -59,33 +74,51 @@ function createBranch(branchData) {
         teenCouncil: TeenCouncil,
     };
 
+    const isKidFriendly = Object.values(kidServices).some(value => value === 1);
+    const isTeenFriendly = Object.values(teenServices).some(value => value === 1);
+
+
     return {
-        _id,
-        kidServices: kidServices,
-        teenServices: teenServices,
+        // _id,
         branch_code: BranchCode,
         branch_name: BranchName,
         address: Address,
         url: Website,
         ward: WardName,
         open_since: PresentSiteYear,
+        isKidFriendly: isKidFriendly,
+        isTeenFriendly: isTeenFriendly,
     };
 }
+
+const processBranchData = (branchData) => {
+    const branch = createBranch(branchData);
+
+    return {
+        ...branch,
+    };
+};
 
 function createPassport({ userName, userType, homeBranch }) {
     return { userName, userType, homeBranch };
 }
 
-function createPassportPage(processedBranch) {
+function createPassportPage(branch) {
     const page = {
-        ...processedBranch,
+        ...branch,
         stamp: false,
         visitCount: 0,
+        visitData: [], // explore making this an object instead
     };
     return page;
 }
 
-const processPassportApplication = (formData, library) => {
+const processPassportApplication = async (formData, library) => {
+
+    if (library === undefined) {
+        library = await defineLibrary();
+    }
+
     const passport = createPassport(formData);
     const dateCreated = new Date().toLocaleDateString();
     const uuid = crypto.randomUUID().toString();
@@ -93,27 +126,20 @@ const processPassportApplication = (formData, library) => {
     passport.dateCreated = dateCreated;
     passport.uuid = uuid;
     passport.pages = pages;
-    console.log(`Passport created for: ${formData.userName}`);
-    console.log(passport);
-    // const selectedPage = passport.pages[43];
-    // console.log(selectedPage);
-    // console.log(`No visit yet...`);
-    // console.log(`Visit Count: ${selectedPage.visitCount} Stamp Status: ${selectedPage.stamp}`);
-    // selectedPage.addVisit();
-    // console.log('After first visit...');
-    // console.log(`Visit Count: ${selectedPage.visitCount} Stamp Status: ${selectedPage.stamp}`);
-    // selectedPage.addVisit();
-    // console.log('After second visit...');
-    // console.log(`Visit Count: ${selectedPage.visitCount} Stamp Status: ${selectedPage.stamp}`);
+    const visitHalf = () => {
+        const oddIndexedPages = passport.pages.filter((_, index) => index % 2 === 1);
+        oddIndexedPages.forEach(page => page.addVisit());
+    };
+    visitHalf();
+    displayPassport(passport);
 
     return {
         passport
     };
 };
 
-const processPassportPageData = (processedBranch) => {
-    const page = createPassportPage(processedBranch);
-    page.visitData = []; // explore making this an object instead
+const processPassportPageData = (branch) => {
+    const page = createPassportPage(branch);
 
     page.addVisit = function () {
         page.visitCount++;
@@ -127,32 +153,61 @@ const processPassportPageData = (processedBranch) => {
     return page;
 };
 
-const processBranchData = (branchData) => {
-    const branch = createBranch(branchData);
-    const isKidFriendly = Object.values(branch.kidServices).some(value => value === 1);
-    const isTeenFriendly = Object.values(branch.teenServices).some(value => value === 1);
+function displayPassport({ userName, dateCreated, userType, homeBranch, pages }) {
+    const passportSection = document.getElementById('user-passport');
+    const passportProperties = [
+        { label: 'User Name', value: userName },
+        { label: 'Date Created', value: dateCreated },
+        { label: 'User Type', value: userType },
+        { label: 'Home Branch', value: homeBranch },
+    ];
 
-    return {
-        _id: branch._id,
-        branch_code: branch.branch_code,
-        branch_name: branch.branch_name,
-        address: branch.address,
-        ward: branch.ward,
-        url: branch.url,
-        open_since: branch.open_since,
-        isKidFriendly,
-        isTeenFriendly,
-    };
-};
+    passportProperties.forEach(({ label, value }) => {
+        const propEl = document.createElement('p');
+        propEl.textContent = `${label}: ${value}`;
+        passportSection.appendChild(propEl);
+    });
 
-function handleSubmit(e) {
-    e.preventDefault();
+    pages.forEach(page => displayPassportPage(page));
+
+}
+
+function displayPassportPage({ branch_name, address, url, ward, open_since, stamp, visitCount, addVisit, branch_code }) {
+    const passportSection = document.getElementById('user-passport');
+    const pageEl = document.createElement('article');
+    pageEl.id = branch_code;
+
+    const pageProperties = [
+        { label: 'Name', value: branch_name },
+        { label: 'Address', value: address },
+        { label: 'Website', value: url },
+        { label: 'Neighborhood', value: ward },
+        { label: 'Year Opened', value: open_since },
+        // { label: 'Add Visit', value: addVisit },
+        { label: 'Stamp', value: stamp ? 'Stamped' : 'Not Stamped' },
+        { label: 'Visits', value: `${visitCount} visit${visitCount === 1 ? '' : 's'}` },
+    ];
+
+    pageProperties.forEach(({ label, value }) => {
+        const propEl = document.createElement('p');
+        propEl.textContent = `${label}: ${value}`;
+        pageEl.appendChild(propEl);
+    });
+
+    const addVisitEl = document.createElement('button');
+    addVisitEl.textContent = 'Check In';
+    pageEl.appendChild(addVisitEl);
+
+    passportSection.appendChild(pageEl);
+}
+
+function handleSubmit(e, form) {
 
     if (form.elements.userName.value && form.elements.userType.value && form.elements.branchSelect.value) {
         const data = { userName: form.elements.userName.value, userType: form.elements.userType.value, homeBranch: form.elements.branchSelect.value };
-        console.log("Form Data:");
-        console.log(data);
-        processPassportApplication(data, setLibrary);
+        // console.log("Form Data:");
+        // console.log(data);
+        processPassportApplication(data);
         e.target.reset();
     }
 };
@@ -168,23 +223,35 @@ async function fetchLibraryData(apiUrl) {
     }
 }
 
-document.addEventListener('DOMContentLoaded', async () => {
-    try {
-        const data = await fetchLibraryData(URL_TORONTO_PUBLIC_LIBRARY);
+function initialLoad(apiUrl = URL_TORONTO_PUBLIC_LIBRARY) {
+    const selectEl = document.getElementById('branchSelect');
+    const form = document.getElementById('signUp');
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        handleSubmit(e, form);
+    });
 
-        setLibrary = data.result.records
-            .filter(branch => branch.PhysicalBranch === 1)
-            .map(branch => processBranchData(branch));
+    document.addEventListener('DOMContentLoaded', async () => {
+        try {
+            const data = await fetchLibraryData(apiUrl);
 
-        const optionElements = setLibrary.map(branch => {
-            const option = document.createElement('option');
-            option.value = branch.branch_code;
-            option.text = branch.branch_name;
-            return option;
-        });
+            data.result.records
+                .filter(branch => branch?.PhysicalBranch === 1)
+                .forEach(branch => {
+                    if (branch.BranchCode && branch.BranchName) {
+                        const option = document.createElement('option');
+                        option.value = branch.BranchCode;
+                        option.text = branch.BranchName;
+                        selectEl.appendChild(option);
+                    } else {
+                        console.error('Missing branch code or branch name for a branch:', branch);
+                    }
+                });
 
-        optionElements.map(option => selectEl.appendChild(option));
-    } catch (error) {
-        console.error('Error:', error);
-    }
-});
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    });
+};
+
+initialLoad(URL_TORONTO_PUBLIC_LIBRARY);
